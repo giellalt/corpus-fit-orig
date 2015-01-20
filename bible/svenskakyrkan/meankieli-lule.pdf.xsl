@@ -67,7 +67,7 @@
 <!-- In the case of a multilingual document, we may want to check for
      other languages. Set the variable monolingual to '1' to turn off
      language recognition (treating everything as mainlang) -->
-<xsl:variable name="monolingual" select="'1'"/> 
+<xsl:variable name="monolingual" select="''"/> 
 
 <!-- If monolingual is not set, the language is multilingual.
      Uncomment the languages you want to check for (or add new lines
@@ -77,7 +77,8 @@
      then the document is checked for all supported languages.
 -->
 <xsl:variable name="mlangs">
-	</xsl:variable>
+	<language xml:lang="swe"/>
+	<language xml:lang="fit"/></xsl:variable>
 
 <!-- Add the locations of the parallel files to the variables-->
 
