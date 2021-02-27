@@ -11,9 +11,9 @@
         These days it is automatically added by the add_files_to_corpus tool.
         https://giellalt.uit.no/ling/CorpusTools.html#add_files_to_corpus
     -->
-    <xsl:variable name="filename" select="'Hemsida Meänkieli 1 (1).docx'"/>
+    <xsl:variable name="filename" select="'Kalastus      meänkieli 5.pdf'"/>
     <xsl:variable name="text_encoding" select="''"/>
-    <xsl:variable name="title" select="''"/>
+    <xsl:variable name="title" select="'Aijankohtasta'"/>
     <!--
         Information of the first author: first name, last name,
         date or year of birth, nationality.
@@ -86,13 +86,13 @@
         Three letter language code.
         https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder
     -->
-    <xsl:variable name="translated_from" select="''"/>
+    <xsl:variable name="translated_from" select="'sv'"/>
     <!-- Translator variables have the same format as the author ones -->
     <xsl:variable name="translator_fn" select="'Bengt'"/>
     <xsl:variable name="translator_ln" select="'Pohjanen'"/>
     <xsl:variable name="translator_gender" select="'m'"/>
-    <xsl:variable name="translator_born" select="'1944'"/>
-    <xsl:variable name="translator_nat" select="'SV'"/>
+    <xsl:variable name="translator_born" select="''"/>
+    <xsl:variable name="translator_nat" select="''"/>
     <!-- select license type: free, standard or other -->
     <xsl:variable name="license_type" select="''"/>
     <!-- e.g. Sámediggi journal number -->
@@ -129,7 +129,7 @@
         other languages. Set the variable monolingual to '1' to turn off
         language recognition (treating everything as mainlang)
     -->
-    <xsl:variable name="monolingual" select="'1'"/>
+    <xsl:variable name="monolingual" select="''"/>
 
     <!--
         If monolingual is not set, the document is multilingual.
