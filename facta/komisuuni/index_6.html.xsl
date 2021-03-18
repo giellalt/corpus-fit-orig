@@ -11,7 +11,7 @@
         These days it is automatically added by the add_files_to_corpus tool.
         https://giellalt.uit.no/ling/CorpusTools.html#add_files_to_corpus
     -->
-    <xsl:variable name="filename" select="'Tulvasuojeli 4.pdf'"/>
+    <xsl:variable name="filename" select="'https://komisuuni.se/fit/komisuunista/puhheenjohtaja-ja-leetamuutit/'"/>
     <xsl:variable name="text_encoding" select="''"/>
     <xsl:variable name="title" select="''"/>
     <!--
@@ -88,11 +88,11 @@
     -->
     <xsl:variable name="translated_from" select="''"/>
     <!-- Translator variables have the same format as the author ones -->
-    <xsl:variable name="translator_fn" select="'Bengt'"/>
-    <xsl:variable name="translator_ln" select="'Pohjanen'"/>
-    <xsl:variable name="translator_gender" select="'m'"/>
-    <xsl:variable name="translator_born" select="'1944'"/>
-    <xsl:variable name="translator_nat" select="'SV'"/>
+    <xsl:variable name="translator_fn" select="''"/>
+    <xsl:variable name="translator_ln" select="''"/>
+    <xsl:variable name="translator_gender" select="'unknown'"/>
+    <xsl:variable name="translator_born" select="''"/>
+    <xsl:variable name="translator_nat" select="''"/>
     <!-- select license type: free, standard or other -->
     <xsl:variable name="license_type" select="''"/>
     <!-- e.g. Sámediggi journal number -->
