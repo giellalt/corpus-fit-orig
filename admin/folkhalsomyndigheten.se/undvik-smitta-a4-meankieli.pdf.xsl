@@ -11,7 +11,7 @@
         These days it is automatically added by the add_files_to_corpus tool.
         https://giellalt.uit.no/ling/CorpusTools.html#add_files_to_corpus
     -->
-    <xsl:variable name="filename" select="'https://www.folkhalsomyndigheten.se/contentassets/b09dae8befdc44ceb416bde4e049cd3a/faktablad-covid-19-70-ar-meankieli.pdf'"/>
+    <xsl:variable name="filename" select="'https://www.folkhalsomyndigheten.se/contentassets/b01ca618d5f14a02b548a4ddf6fa3a68/undvik-smitta-a4-meankieli.pdf'"/>
     <xsl:variable name="text_encoding" select="''"/>
     <xsl:variable name="title" select="''"/>
     <!--

@@ -74,19 +74,19 @@
     <!-- The values are either: published or unpublished -->
     <xsl:variable name="publChannel" select="''"/>
     <!-- Publication year -->
-    <xsl:variable name="year" select="''"/>
+    <xsl:variable name="year" select="'2021'"/>
     <xsl:variable name="ISBN" select="''"/>
     <xsl:variable name="ISSN" select="''"/>
     <xsl:variable name="place" select="''"/>
 
     <!-- Automatically filled in by CorpusTools -->
-    <xsl:variable name="genre" select="'admin'"/>
+    <xsl:variable name="genre" select="'facta'"/>
     <xsl:variable name="collection" select="''"/>
     <!--
         Three letter language code.
         https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder
     -->
-    <xsl:variable name="translated_from" select="'swe'"/>
+    <xsl:variable name="translated_from" select="''"/>
     <!-- Translator variables have the same format as the author ones -->
     <xsl:variable name="translator_fn" select="''"/>
     <xsl:variable name="translator_ln" select="''"/>
@@ -115,7 +115,7 @@
     <!-- Valid values are complete and uncomplete -->
     <xsl:variable name="metadata" select="'uncomplete'"/>
     <!-- Automatically filled in by CorpusTools -->
-    <xsl:variable name="template_version" select="'$Revision$'"/>
+    <xsl:variable name="template_version" select="'$Revision: 187360 $'"/>
     <!-- Automatically filled in by CorpusTools -->
     <xsl:variable name="current_version" select="'Revision'"/>
     <!-- Free text field for notes -->
@@ -129,7 +129,7 @@
         other languages. Set the variable monolingual to '1' to turn off
         language recognition (treating everything as mainlang)
     -->
-    <xsl:variable name="monolingual" select="'1'"/>
+    <xsl:variable name="monolingual" select="''"/>
 
     <!--
         If monolingual is not set, the document is multilingual.
@@ -160,7 +160,7 @@
     <xsl:variable name="parallels">
         <parallel_text xml:lang="dan" location=""/>
         <parallel_text xml:lang="eng" location=""/>
-        <parallel_text xml:lang="fin" location="faktablad-covid-19-finska.pdf"/>
+        <parallel_text xml:lang="fin" location=""/>
         <parallel_text xml:lang="fit" location=""/>
         <parallel_text xml:lang="fkv" location=""/>
         <parallel_text xml:lang="ger" location=""/>
@@ -170,12 +170,12 @@
         <parallel_text xml:lang="nno" location=""/>
         <parallel_text xml:lang="nob" location=""/>
         <parallel_text xml:lang="rus" location=""/>
-        <parallel_text xml:lang="sma" location="faktablad-covid-19-sydsamiska.pdf"/>
-        <parallel_text xml:lang="sme" location="faktablad-covid-19-nordsamiska.pdf"/>
-        <parallel_text xml:lang="smj" location="faktablad-covid-19-lulesamiska.pdf"/>
+        <parallel_text xml:lang="sma" location=""/>
+        <parallel_text xml:lang="sme" location=""/>
+        <parallel_text xml:lang="smj" location=""/>
         <parallel_text xml:lang="smn" location=""/>
         <parallel_text xml:lang="sms" location=""/>
-        <parallel_text xml:lang="swe" location="allmant-om-covid-19.pdf"/>
+        <parallel_text xml:lang="swe" location=""/>
     </xsl:variable>
 
     <!--
