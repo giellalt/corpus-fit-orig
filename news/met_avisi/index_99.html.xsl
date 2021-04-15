@@ -13,7 +13,7 @@
     -->
     <xsl:variable name="filename" select="'https://www.str-t.com/meki/love-from-lapland-halvaa-levita-mailmale/'"/>
     <xsl:variable name="text_encoding" select="''"/>
-    <xsl:variable name="title" select="''"/>
+    <xsl:variable name="title" select="'Met Avisi'"/>
     <!--
         Information of the first author: first name, last name,
         date or year of birth, nationality.
@@ -140,7 +140,7 @@
         then the document is checked for all supported languages.
     -->
     <xsl:variable name="mlangs">
-        <!-- <language xml:lang="dan"/> -->
+        <language xml:lang="swe"/>
     </xsl:variable>
 
     <!--
