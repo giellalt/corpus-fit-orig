@@ -1,0 +1,476 @@
+Error at: 138
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+
+<string>:153:0:ERROR:VALID:DTD_INVALID_CHILD: Element p is not declared in p list of possible children
+<document {http://www.w3.org/XML/1998/namespace}lang="fit" id="no_id">
+    <header>
+        <title>
+        </title>
+        <genre code="admin">
+        </genre>
+        <author>
+            <unknown>
+            </unknown>
+        </author>
+        <translator>
+            <unknown>
+            </unknown>
+        </translator>
+        <translated_from {http://www.w3.org/XML/1998/namespace}lang="swe">
+        </translated_from>
+        <wordcount>
+            1796
+        </wordcount>
+        <conversion_status type="standard">
+        </conversion_status>
+        <availability>
+            <license type="standard">
+            </license>
+        </availability>
+        <origFileName>
+            meki KALIX INFOBLAD Avgifter för Äldre och personer med funktionsnedsättning.docx MEÄNKIELI.docx
+        </origFileName>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="dan" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="eng" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="fin" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="fit" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="fkv" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="ger" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="isl" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="kal" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="kpv" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="nno" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="nob" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="rus" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="sma" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="sme" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="smj" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="smn" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="sms" location="">
+        </parallel_text>
+        <parallel_text {http://www.w3.org/XML/1998/namespace}lang="swe" location="">
+        </parallel_text>
+        <metadata>
+            <uncomplete>
+            </uncomplete>
+        </metadata>
+        <version>
+            XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$;
+        </version>
+    </header>
+    <body>
+        <p>
+            <em type="italic">
+                Vanhentuvien ja toimintavajavaisten hoitamisesta, huoltamisesta ja tukitoimesta Kaihnuun kunta ottaa makson. Maksot säänöstelhään sosiaalipalvelulaissa ja perustuu peruspohjasumhaan¹.
+            </em>
+        </p>
+        <p>
+            <em type="italic">
+                Mikäs vaikuttaa sinun makshoon?
+            </em>
+        </p>
+        <p>
+            Makso, minkä juuri sie piät maksaa, räknäthään sinun tulojen, asumiskostanusten pohjalta ja vielä otethaan huomihoon mitä tukiavustuksia sulle oon myönetty. Saattaaksheen räknätä sinun makson kunta tarttee tietoja sinun tuloista. Pansuuniviraston/Vakkuutuskassan sulle maksetut tulot kunta hommaa suohraan sieltä ja tulot sinun rahasäästöistä Veroviranomhaisilta. Jos sulla oon muita tuloja sie hääyt itte tieottaa niistä planketissa, jonka sie saat tukikäsittelijältä. Sie et koskhaan saata maksaa enämpää ko maksimimakson niistä toimista, jokka oon sulle myönetty. Sitä vastoin sie saatat maksaa alemaan makson riippuen sinun tuloista ja asumiskostanuksista. Sie saatat kans olla antamatta tulotietoja ja sen siihaan maksaa maksimimakson niistä toimista, jokka sulle oon myönetty. – kryssaa siinä taphauksessa se ruutu sinun tuloveroilmotusplanketissa ja lähätä planketti kunthaan.
+        </p>
+        <p>
+            <em type="italic">
+                Maksimimakso
+            </em>
+        Korkein makso hoitamisesta, huoltamisesta ja tukitoimesta, toisin sanoen kotipalveluksesta, turvahällyytyksestä erikoisasunossa ja/taikka huoltamisesta lyhyen aijan asumisesta/helpottamisesta/vaihtohuoltamisesta oon 2 125 kruunua 2020. vuen hintatasola. Maksimimakso päätethään 8. luvun 5 § SoL:n jälkhiin ja pohjautuu nettotulhoin, asumiskostanukshiin ja alimphaan sumhaan, jota määrää maksimitaksa koskien vanheempia ja henkilöitä, joila oon toimintavajavaisuutta.
+        </p>
+        <p>
+            <em type="italic">
+                Sinun tulot
+            </em>
+        </p>
+        <p>
+            Tuloiksi räknäthään kaikenlaiset pansuunit ja maholiset palveluksesta tulevat tulot, yritystoiminasta, elinräntystä ja rahasäästöstä tulevat tulot. Jokku verovaphaat palkat ja avustukset räknäthään tuloiksi, kuten asuntotukilissäykset ja vanheentuvientuki. Omasuutta ei räknätä tuloiksi.
+        </p>
+        <p>
+            Jos sie elät yhessä sinun aviopuolen kans niin sinun tulot räknäthään puoleksi teän yhtheisistä tuloista. Avoparile tulot räknäthään itten kunki eriksheen.
+        </p>
+        <p>
+            <em type="italic">
+                Sinun asumiskostanukset
+            </em>
+        </p>
+        <p>
+            Sinun asumiskostanuksheen kuuluu vuokra taikka kuukausimakso jos sie asut vuokrahuohneessa taikka oma-asunossa. Jos asunon lämmitys ja lämminvesi maksethaan eriksheen vuokran lisäksi taikka jos oon vastaavaa vuokran lisäksi kuuluvaa maksoa niin net saapi räknätä kans, mutta huushollisähköä ei saa räknätä myötä. Jos sie asut omassa talonpaikassa niin asuntotukilässäyksen häätyy hakea pansuunivirastosta/vakkuutuskassasta, saa’akseesti asumiskostanuksen arvioinin, muussa taphauksessa kunta saattaa vain ottaa huomihoon shabloonisumman korkeinthaan 2 000 kruunua lämmitys- ja ylläpitämiskostanuksista. Asumiskostanus jaethaan sen jälkhiin kunka monta raavasta huushollia jakkaa.
+        </p>
+        <p>
+            1 Hinnan määrää hallitus ja justeera joka vuosi. Net summat, mikkä oon annettu vihkosessa oon räknätyt aijankohtasesta peruspohjasummasta vuele 2020 (47 300 kruunua).
+        </p>
+        <p>
+            <em type="italic">
+                Alin summa, yksityisiä koskeva lisä ja vähenys
+            </em>
+        </p>
+        <p>
+            Alin summa oon lainmääräämä summa, mikä pittää kattaa normaalikostanukset koskien henkilökohtasia tarpheita, ja se summa pohjautuu Konsumentverketin räkinkisuunitelhmiin kohtuulisista elinkostanuksista.
+        </p>
+        <p>
+            Alin summa yksin asuvalle oon 5 340 kruunua kuukausittain.
+        </p>
+        <p>
+            Yhessä eläville avioparile ja avoparile alin summa oon 4 512 kruunua kummale eriksheen kuukausittain.
+        </p>
+        <p>
+            Jos sinun kostanukset ylittävä normaalikostanukset koskien semmosia asioita, jokka alin summa pittää kattaa, esimerkiksi holhoojakostanukset taikka tyyristyneen ruan takia siksi ko sie hääyt ostaa valmista ruokaa kotipalveluksesta taikka erikoisasumisessa, niin sie saatat saa’a henkilökohtasen lisän, mikä lissää sinun alinta summaa ja sinun kostanusta saatethaan kans vähentää. Jos sie asut päntiönnä erikoisasunossa niin joissaki taphauksissa huushollisähkö kuuluu vuokraan, yksilöllinen vähenys tehhään jos sulla ei ole kostanuksia niistä kohista, joita ei ole räknätty alinphaan sumhaan.
+        </p>
+        <p>
+            <em type="italic">
+                Varasumma ja kostanusvara
+            </em>
+        </p>
+        <p>
+            Sinun tuloista varathaan tietty osa ennen ko makso päätethään. Tätä sanothaan varasummaksi ja oon aliman rahamäärän summa ja sisältää kans sinun asumiskostanukset. Varasumma veethään yhtheenräknätyistä tuloista ja tätä summaa sanothaan kostanusvaraksi. Se oon tämä kostanusvara, mikä määrää minkä summan sie piät maksaa niistä tukitoimista, mitä sulle oon hyväksytty. Jos kostanusvarraa ei ole niin maksoa ei vaaita.
+        </p>
+        <p>
+            <em type="italic">
+                Tuplat asuntokostanukset
+            </em>
+        </p>
+        <p>
+            Jos sie siiryt erikoisasumisheen etkä kerkiä purkaa niin kunta saattaa huomioia tuplan vuokran/asuntokostanuksen ko räknää kostanuksen sulle, tämä oon voimassa purkamisaijan, joka enniiten saapi kestää kolme kuukautta.
+        </p>
+        <p>
+            <em type="italic">
+                Maksopäätös
+            </em>
+        </p>
+        <p>
+            Jos sulla oon aputoimintaa, joista vaaithaan makso niin sie saat siittä erilisen maksopäätöksen. Sie saatat valittaa maksopäätöksen, informašuunia siittä kunka valitus tehhään löytyy sinun maksopäätöksestä. Jos net aputoimet joista oon päätetty muuttuva, niin se saattaa vaikuttaa kostanuksheen. Sie olet vasthuussa siittä, ette sie ilmotat jos sinun tulot taikka asuntokostanukset muuttuva, siksi ko se saattaa vaikuttaa maksopäätöksheen.
+        </p>
+        <p>
+            <em type="italic">
+                MAKSOT (voimassa lähtien 2020-01-01)
+            </em>
+        </p>
+        <p>
+            <em type="italic">
+                Kotipalvelu
+            </em>
+        Taso 1 (Vähemän ko 10 tiimaa/kuukausi) 739 kruunua. Taso 2 (10-25 tiimaa tiimaa/kuukausi) 1 478 kruunua. Taso 3 (Enämpi ko 26 tiimaa/kuukausi) 2 125 kruunua.
+        </p>
+        <p>
+            Digitaalinen turvahällyytys: 366 kruunua kuukausittain. Jos oon vielä toinen hällyytysasiakas samassa asunossa (ekstra hällyytysknappi): 183 kruunua kuukausittain.
+        </p>
+        <p type="title">
+            Ruokatillaus (sis. tillauksen ja kuljetuksen)Taso 1 (1-10 potsuunia) 632 kruunua kuukausittain.. Taso 2 (11-20 potsuunia) 1 264 kruunua kuukausittain. Taso 3 (21-31 potsuunia) 1 896 kruunua kuukausittain. Taso 4 (32-46 potsuunia) 2 532 kruunua kuukausittain. Taso 5 (47-62 potsuunia) 3 165 kruunua kuukausittain.
+        </p>
+        <p type="title">
+            Ruokailumakso – PäivätoimintaLynsi Päiväkokkous: 49,50 kruunua potsuuni.
+        </p>
+        <p type="title">
+            TOIMINTAVAJAVAISUUS SoL/LSS
+        </p>
+        <p>
+            <em type="italic">
+                Ruokamakso – Jokapäivänen puoha
+            </em>
+        Lynsi Dagcenter & JUC:ssä (Työ- ja kehityskeskus): 48 kruunua potsuuni.
+        </p>
+        <p type="title">
+            Kuukausimakso - Ryhmäasunto/PalveluasuntoFruukosti: 24,16 kruunua potsuuni. Lynsi: 49,50 kruunua potsuuni. Murkina: 49,50 kruunua potsuuni.
+        </p>
+        <p type="title">
+            Ruokakostanus tukitoimien puolela, jokka koskeva lasten ja nuorten (0-21 v) lyhyen aijan perhäänkattomista ja lyhyen aijan oleiluaFruukosti: 21 kruunua potsuuni. Lynsi: 38 kruunua potsuuni. Murkina: 38 kruunua potsuuni.
+        </p>
+        <p>
+            <em type="italic">
+                Erikoisasuminen
+            </em>
+        </p>
+        <p>
+            Maksimikostanus hoitamisesta, huoltamisesta ja tukitoimesta, jota annethaan ympäri vuorokauen eriskoisasumisen puolela oon 2 125 kruunua kuukausittain. Sinun henkilökohtanen maksosumma räknäthään sinun tulojen jälkhiin. Lue enämpi tästä eeliseltä sivulta.
+        </p>
+        <p>
+            <em type="italic">
+                Vuokra
+            </em>
+        </p>
+        <p>
+            Sie, joka asut erikoisasumisessa maksat huohneen taikka vuokra-asunon vuokran talonpaikan omistajalle. Vuokra vaihtelee asunon käyttöarvon myötä. Sulla oon oikeus hakea asuntotukilässäystä Pansuunivirastosta taikka Vakkuutuskassasta.
+        </p>
+        <p>
+            <em type="italic">
+                Muita kostanuksia
+            </em>
+        </p>
+        <p>
+            Ruokakostanus: 3 695 kruunua kuukausittain.
+        </p>
+        <p>
+            Puhthaus- ja käyttökampheita momsi (sis.): 438 kruunua kuukausittain + 172 kruunua kuukausittain käytössä olevista sänkyliinoista ja hantuukista/paatilakanoista koskien petiä ja pesemistä.
+        </p>
+        <p>
+            Sähkömakso:(koskee vissiä asuntoja): 103 kruunua kuukausittain.
+        </p>
+        <p type="title">
+            Lyhyen aijan asumisesta, helpottamisesta taikka vaihtohuoltamisesta / Sulta, joka oleskelet erikoisasunossa lyhyen aijan hoitoa varten, maksotethaan vuorokausimakso, mikä vastaa 30.-osan erikoisasunon kostanuksista mikä tietää: Huoltaminen: Enniiten 70,83 kruunua vuorokauessa. Ruokakostanus: 123,16 kruunua vuorokauessa. Puhthaus- ja käyttökampheita (sis. momsi): 20,33 kruunua vuorokauessa. Asuntokostanus ko oon kysymys lyhyen aijan asumisesta oottamassa vakituista paikkaa erikoisasunthoon: 72,76 kruunua vuorokauessa. Sulta, joka oleskelet sielä helpottamisen/vaihtohuoltamisen takia, ei peritä mithään maksoa huohneesta eikä asunosta.
+        </p>
+        <p>
+            <em type="italic">
+                Sulle, jolla oon toimintavajavaisuutta
+            </em>
+        </p>
+        <p>
+            Sinua, jolla oon jatkuva toimintavajavaisuus, suojaa LSS, laki joka koskee tukea ja tukitoimintaa toimintavajavaislle, jokka ei piä maksaa hoitamisesta, huoltamisesta eikä tukitoimesta. Mutta sie piät kuiten maksaa vuokraa asumisesta ja muita kostanuksia.
+        </p>
+        <p>
+            <em type="italic">
+                Tuplat asuntokostanukset
+            </em>
+        </p>
+        <p>
+            Lue enämpi tuplista asuntokostanuksista eeliseltää sivulta.
+        </p>
+        <p>
+            Kunnan terhveys- ja siukkahoito
+        </p>
+        <p>
+            Kotikäynti ja omamakso koskien käyttökampheita ko oon kusikontinensia sisältyy maksimitakshaan. Omamakso koskien muita apukampheita ei sisäly maksimitakshaan. Lue lissää maksimitaksasta sivula 2. Erikoisasunthoon siältyy käyntimakso ko terhveys- ja siukkahoito käypi ja lisäksi sisältyvä vielä apukampheet huoltamiskostanuksheen.
+        </p>
+        <p>
+            <em type="italic">
+                Maksot
+            </em>
+        </p>
+        <p>
+            Kotikäynti vaihtoehto siukkuutta hoitavaa piirisiukkasysterin/siukkasysterin, siukkajymnastin, työterapeutin käynti: 254 kruunua käynistä. Kotisiukkahoito: 508 kruunua kuukausittain. Lääkinälinen jalkahoito: 254 kruunua joka kerta. Aikatilattu kotikäynti siukkuutta hoitoa varten, jota ei saateta toimittaa: 254 kruunua.
+        </p>
+        <p type="title">
+            Maksosta vapaa
+        </p>
+        <p type="title">
+            Maksoa ei oteta
+        </p>
+        <list>
+            <p type="listitem">
+                Kotikäynti, jonka alottaa kunnan oma piirisysteri/siukkasysteri/siukkajymnasti,työterapeutti (ko joku näistä pätevyyksistä oon arvioinu, ette kotikäynti oon tarpheelista ja jos pasientti itte ei ole tahtonu kotikäyntiä).
+            </p>
+            <p type="listitem">
+                Pasientti, joka oon psyykkisesti toimintavajavainen psykoosin takia, kaksmielisyyen takia taikka jos sillä oon neuropsykiatrinen määritys. Psyykkofarmakan ruiske.
+            </p>
+            <p type="listitem">
+                Lapset ja nuoret alle 20 vuotta (18 ja 19 vuotta) ko käyvä ko ei ole päivystysaika (maanantai-perjantai kello 08.00-17.00) avohoiossa terhveys- ja saihraanhoiossa.
+            </p>
+            <p type="listitem">
+                Palliatiivinen kotona annettu hoito elämän lopussa.
+            </p>
+            <p type="listitem">
+                Pasientit, joila oon psyykkinen häiriö ja väärinkäyttö – niin sanottu tupla siukkamääritys – jota hoiethaan psykiatrin
+                <em type="italic">
+                    case-managerin
+                </em>
+            kautta ei piä maksaa mithään hoiosta.
+            </p>
+        </list>
+        <p type="title">
+            Apukampheita
+        </p>
+        <p type="title">
+            Käyntimakso, joka vastaa siukan hoitamisen kostanusta, otethaan ensimäisen kotikäynin yhtheyessä ko pruuvathaan uutta apukampetta. Jos useampaa apukampetta pruuvathaan niin makso otethaan vain yhestä kotikäynistä. Pasientit, jokka oon avohoiossa ja vaphaat maksoista valtuustopäätöksen jälkhiin, ei maksa mithään käyntikostanusta ensimäisen käynin yhtheyessä ko pruuvathaan uutta apukampetta.
+        </p>
+        <p>
+            <em type="italic">
+                Apukampheet, jokka yksityinen pittää kokohnaans itte kostantaa
+            </em>
+        Kaikki apukampheet, joita ei työterapeutti, siukkajymnasti eikä siukkasysteri määrää, yksityinen kostantaa itte.
+        </p>
+        <p type="title">
+            Apukampheitten maksot, Ortooserin stantaartimallisia
+        </p>
+        <p>
+            Kostanus 0-162 kruunua. Omamakso 0 kruunua. Kostanus 163-271 kruunua Omamakso 163 kruunua.
+        </p>
+        <p>
+            Kostanus 272 kruunua ja enämpi Omamakso 272 kruunua. Vuosittainen maksimimakso 813 kruunua. Lapsilta ja nuorilta alle 18 vuotta ei oteta mithään maksoa.
+        </p>
+        <p type="title">
+            Apukampheitten maksot
+        </p>
+        <list>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Tukikeppi ja kainalosauva kenkäihnein ja jääpiikkinhein
+Omamakso 109 kruunua/kpl.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Kenkäin (ko ostethaan eriksheen). 
+Omamakso 17 kruunua/kpl.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Jääpiikit (ko ostethaan eriksheen). 
+Omamakso 65 kruunua/kpl.
+Henkilöt, joila oon krooninen tauti ja alituinen näitten apukampheitten
+tarve, maksava vain ensimäisestä apunkampheesta – sen jälkhiin se oon
+ilhmaista.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Ilman rathaita olevat apukampheet.
+Omamakso 324 kruunua/kpl.
+Käsituki ja/taikka sölkätuki, joita monteerathaan toalethiin kuuluu kans
+tähhään ryhmään. Lapsilta ja nuorilta, jokka oon alle 20 vuotta, ei
+vaaita omamaksoa eikä pasientilta palliatiivisoastolla.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Rolattori. Omamakso 324 kruunua/kpl.
+Lapsilta ja nuorilta, jokka oon alle 20 vuotta, ei vaaita omamaksoa eikä
+pasientilta palliatiivisoastolla. Rolattori annethaan takasi lainaamisen
+jälkhiin.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        TENS-apparaatti (kipustimulaattori). Omamakso 1 081 kruunua/kpl.
+Pasientti, joka tarttee lyhyeksi aijaksi lainata aparaattia saapi
+lainata ilmaseksi, korkeinthaan kolme kuukautta. Pasientti, joka tarttee
+käythöön pitkäksi aijaksi, vastaa omamaksosta kolmen kuukauken lainan
+jälkhiin, semmosta aparaattia ei tartte tua takasi. Huoltokostanuksista
+vastaa pasientti.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Daisypelari. Omamakso 541 kruunua/kpl.
+Lapsilta ja nuorilta, jokka oon alle 20 vuotta, ei vaaita omamaksoa.
+                    </span>
+                </p>
+            </p>
+        </list>
+        <p>
+        </p>
+        <list>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Kuljetuskostanus ko kuljetethaan takasi apukampheita
+apukampetraahllin. 203 kruunua/kerta.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Makupaljoja hoion määräähmiin sänkhyin.
+Stantaartipalja kuuluu pasientin omhaan vasthuusheen eikä sitä kostana
+kunta. Pasientilta palliatiivihoiossa ei vaaita omamaksoa. Vanheentuvat
+ja pahasti saihraat pasientit – jos niilä esimerkiksi ei ole omhaisia –
+poikkeustilantheessa saattava saa’a sopivan paljan tuotua hälle määrätyn
+sängyn kans.
+Omamakso joka vastaa stantaartopaljan ostohintaa.  
+Pahasti saihraat pasientit, jokka tartteva erityisen paljan saava
+kunnalata maholisuuen hommata semmosen. Se oon voimassa ko paljan mitat
+ja käyttäjäpainon vaatimukset oon semmosia, ette niitä ei saateta ostaa
+mööpelikaupasta taikka vastaavasta. Omamakso, mikä vastaa kunnan
+stantaartipaljan ostohintaa.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Käyttökampheita kusikontinensitaphauksessa.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Omamakso185 kruunua kahetoista kuukauen aikana.
+Lapsilta ja nuorilta, jokka oon alle 20 vuotta, ei vaaita omamaksoa.
+                    </span>
+                </p>
+            </p>
+            <p type="listitem">
+                <p>
+                    <span type="quote">
+                        Makso sisältyy kunnan maksimitakshaan.
+                    </span>
+                </p>
+            </p>
+        </list>
+        <p>
+            Hoitamisen, huoltamisen ja tukitoimen maksot voimassa 2020-01-01
+        </p>
+        <p>
+            <em type="italic">
+                Vanheetuville ja henkilöile, joila oon toimontavajavaisuutta.
+            </em>
+        </p>
+        <p>
+            <em type="italic">
+                Kaihnuun kunta
+            </em>
+        </p>
+        <p>
+            <em type="italic">
+                Käyntiosote Kotisivu Sähköpostt Telefoon Faksi
+            </em>
+        </p>
+        <p>
+            Nygatan 4 www.kalix.se/social socialnamnden@kalix.se 0923-650 00 0923-773 08
+        </p>
+        <p>
+            952 81 Kalix
+        </p>
+    </body>
+</document>

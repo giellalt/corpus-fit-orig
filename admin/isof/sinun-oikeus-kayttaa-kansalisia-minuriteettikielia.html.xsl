@@ -12,7 +12,7 @@
         https://giellalt.uit.no/ling/CorpusTools.html#add_files_to_corpus
     -->
     <xsl:variable name="filename" select="'https://www.isof.se/sprak/sprakpolitik/minoritetslagen/din-ratt-att-anvanda-nationella-minoritetssprak/sinun-oikeus-kayttaa-kansalisia-minuriteettikielia.html'"/>
-    <xsl:variable name="text_encoding" select="''"/>
+    <xsl:variable name="text_encoding" select="'Sinun oikeus käyttää kansalisia minuriteettikieliä'"/>
     <xsl:variable name="title" select="''"/>
     <!--
         Information of the first author: first name, last name,
@@ -74,7 +74,7 @@
     <!-- The values are either: published or unpublished -->
     <xsl:variable name="publChannel" select="''"/>
     <!-- Publication year -->
-    <xsl:variable name="year" select="''"/>
+    <xsl:variable name="year" select="'2019'"/>
     <xsl:variable name="ISBN" select="''"/>
     <xsl:variable name="ISSN" select="''"/>
     <xsl:variable name="place" select="''"/>
@@ -86,7 +86,7 @@
         Three letter language code.
         https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder
     -->
-    <xsl:variable name="translated_from" select="''"/>
+    <xsl:variable name="translated_from" select="'swe'"/>
     <!-- Translator variables have the same format as the author ones -->
     <xsl:variable name="translator_fn" select="''"/>
     <xsl:variable name="translator_ln" select="''"/>
@@ -140,7 +140,7 @@
         then the document is checked for all supported languages.
     -->
     <xsl:variable name="mlangs">
-        <!-- <language xml:lang="dan"/> -->
+        <language xml:lang="dan"/>
     </xsl:variable>
 
     <!--
