@@ -1,0 +1,3010 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <title>Me&#228;nkieli | Kommerskollegium</title>
+
+<meta name="description">
+<meta name="robots" content="">
+
+
+<link rel="canonical" href="https://www.kommerskollegium.se/om-oss/uppdrag/minoritetssprak/meankieli/">
+
+<meta property="og:title" content="Me&#228;nkieli">
+<meta property="og:site_name" content="Kommerskollegium">
+<meta property="og:description">
+<meta property="og:url" content="https://www.kommerskollegium.se/om-oss/uppdrag/minoritetssprak/meankieli/">
+
+    <meta property="og:image" content="https://www.kommerskollegium.se/globalassets/kommerskollegium-logga-sigill_640x320.png">
+
+<meta name="twitter:title" content="Me&#228;nkieli">
+<meta name="twitter:description">
+<meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:image" content="https://www.kommerskollegium.se/globalassets/kommerskollegium-logga-sigill_640x320.png">
+
+
+
+    <script src="/dist/js/vendors.js?cachebusting=202506171646"></script>
+    <script src="/dist/js/modules.js?cachebusting=202506171646"></script>
+    <script src="/dist/js/app.js?cachebusting=202506171646"></script>
+    
+<link rel='stylesheet' type='text/css' data-f-resource='EPiServerForms.css' href='/WebResource.axd?d=s-f6ie6T4Qaxga0Un_qm85u41NhOha3Cc7kZO_b3HW90v2IVL-21iu07Wx3zSEpeM0DlQNkqvfEiWrIEAIcGiaLvYN71f5TEZwXg-WAH-ipYZPtTnJbWuG5ZmGzU9FT-Vz7cs5b5vf5ibK4EZslZQckdxwUcFpK-yhAVg3IDcbU1&t=637323584880000000' />
+
+<script type="text/javascript">
+var epi = epi||{}; epi.EPiServer = epi.EPiServer||{}; epi.EPiServer.Forms = epi.EPiServer.Forms||{};
+                    epi.EPiServer.Forms.InjectFormOwnJQuery = true;epi.EPiServer.Forms.OriginalJQuery = typeof jQuery !== 'undefined' ? jQuery : undefined;
+</script>
+<script type="text/javascript" src="/WebResource.axd?d=rQapnFTl_pgMjn3yGS-nPhEXp9u9_94CwTWPOGr70wpj2ln2Foaq_Txx9dc87QFtIaodP25rA6CM6-ng6yTEvlw6a6m3LzS7UIPcFl7Q1PkKQLdHDerDcPYPGX6Wmh0q942Fv52rOn9GcwLpYcDVpHCAeNixm4kNMcVDiadEkFw1&t=637323584880000000"></script>
+<script type="text/javascript">
+/*
+This EPiServerForms_prerequisite.js TEMPLATE will be compiled with serverside values and injected into ViewMode page
+We reuse the existed global var epi from EPiServer CMS, if any. It will init/grab the epi object, and init epi.EPiServer.Forms object
+*/
+
+// (by default) Forms's jQuery will be injected right before this file. From now on, we refer Forms own jQuery as $$epiforms.
+// after this code, the object $ and jQuery will revert back to its original meaning in original library (Alloy jQuery or other lib).
+
+// Our clients' sites may include their own Jquery version (e.g. a higher version for some special functionalities), which leads to unexpected conflicts with ours.
+// To avoid this, we use jQuery.noConflict()  to set up $$epiforms as an allias for our jquery and then, revert Jquery allias to clients' by using
+// epi.EPiServer.Forms.OriginalJQuery whose value is set up as Jquery at the beginning in FormBlockController.
+// This also allows us to extend our own Jquery's functionalities without causing further conflicts.
+
+var $$epiforms = epi.EPiServer.Forms.InjectFormOwnJQuery ? jQuery.noConflict() : jQuery;
+if (epi.EPiServer.Forms.OriginalJQuery) {
+    jQuery = epi.EPiServer.Forms.OriginalJQuery;
+    delete epi.EPiServer.Forms.OriginalJQuery;
+}
+(function () {
+    var externalScript = [],
+        externalCss = [];
+
+    if (epi.EPiServer.Forms.ExternalScriptSources) {
+        externalScript = epi.EPiServer.Forms.ExternalScriptSources.concat(externalScript);
+        // Remove duplicate items
+        externalScript = externalScript.filter(function (value, index, self) {
+            return self.indexOf(value) === index;
+        });
+    }
+    if (epi.EPiServer.Forms.ExternalCssSources) {
+        externalCss = epi.EPiServer.Forms.ExternalCssSources.concat(externalCss);
+        // Remove duplicate items
+        externalCss = externalCss.filter(function (value, index, self) {
+            return self.indexOf(value) === index;
+        });
+    }
+
+    $$epiforms.extend(true, epi.EPiServer, {
+        CurrentPageLink: "6302",
+        CurrentPageLanguage: "sv",
+        CurrentFormLanguage: "sv",
+        Forms: {
+            Utils: {}, Data: {}, Extension: {}, Validation: {}, Navigation: {}, Dependency: {},
+            $: $$epiforms,  // save our own link to our own jQuery
+            ThrottleTimeout: 500,  // miliseconds
+            ExternalScriptSources: externalScript,
+            ExternalCssSources: externalCss,
+            UploadExtensionBlackList: "asp,aspx,asa,ashx,asmx,bat,chm,class,cmd,com,config,dll,exe,hta,htr,htw,jse,json,lnk,mda,mdb,msc,msh,pif,printer,ps1,ps2,reg,rem,scf,scr,sct,shtm,shtml,soap,stm,svc,url,vb,vbe,vbs,vsix,ws,wsc,wsf,wsh,xamlx,htm,html,js,jar",
+            Messages: {"viewMode":{"malformStepConfiguration":"Felkonstruerade formulärsteg. Vissa steg är kopplade till sidor, andra steg är inte kopplade till sidor eller kopplade till innehåll som saknar publik URL.","commonValidationFail":"Elementvärdet är inte giltigt."},"fileUpload":{"overFileSize":"Filstorleken måste vara mindre än {0} MB.","invalidFileType":"Filformatet är inte tillåtet eller stöds inte.","postedFile":"(Tidigare skickade filer: {0})"}},
+            LocalizedResources: {"conditioncombination":{"all":"Alla","any":"Någon"},"satisfiedaction":{"hide":"Visas inte","show":"Visas"},"contenttypescomponent":{"title":"Formulärelement","description":"Visa alla innehållstyper för Episerver Forms"},"formscomponent":{"title":"Formulär","description":"Hantera formulär för webbplatsen","command":{"create":{"label":"Nytt formulär"},"viewdata":{"label":"Formulärdata"}},"messages":{"nocontent":"Den här katalogen innehåller inga formulär."}},"formdataview":{"name":"Formulärdata","description":"Visa inskickat formulärdata","heading":"Formulärdata","begindate":"Från datum","enddate":"Till datum","search":"Sök","nodata":"Data saknas","export":"Exportera som ...","exportasxml":"XML","exportasxmldesc":"Exportera formulärdata i XML-format","exportascsv":"CSV","exportascsvdesc":"Exportera formulärdata i CSV-format","exportasjson":"JSON","exportasjsondesc":"Exportera formulärdata i JSON-format","finalizedonly":"Endast slutförda","deleteselecteditems":"Ta bort","exportasxlsx":"XLSX","exportasxlsxdesc":"Exportera formulärdata i XLSX-format","selectalltooltip":"Välj alla","deselectalltooltip":"Avmarkera alla","deleteconfirmation":"Vill du ta bort alla valda objekt? Den här åtgärden går inte att ångra.","nopostid":"ID saknas för borttagning.","couldnotgetassociateform":"Det gick inte att hämta det associerade formuläret.","deletesuccessful":"Borttagningen lyckades.","accessdenied":"Du saknar rättigheter att se informationen.","submittime":"Tid","submituser":"Av användare","hostedpage":"Inskickat från","finalizedsubmission":"Slutförd","selectioninfo":"Alla <b>${0}</b> posterna är valda. ","extraselectionlink":"Välj alla <b>${0}</b> poster","clearselectionlink":"Avmarkera gjorda val","filterdata":"Filter","searchallcolumns":"Alla kolumner","exportasdecryptedcsv":"Dekrypterad CSV","exportasdecryptedcsvdesc":"Dekryptera och exportera formulärdata i CSV-format"},"formscontentarea":{"emptyactions":{"actions":{"createnewformselement":"skapa ett nytt element"},"template":"Du kan släppa formulärelement här eller {createnewformselement}.","templatewithoutcreate":"Du kan släppa innehåll här."}},"fieldselector":{"title":"Välj fält som är beroende"},"submissionactors":{"episerver.forms.implementation.actors.callwebhookaftersubmissionactor":{"displayname":"Trigga webhook efter formuläret skickats"},"episerver.forms.implementation.actors.sendemailaftersubmissionactor":{"displayname":"Skicka e-post efter formuläret skickats"}},"validators":{"episerver.forms.implementation.validation.requiredvalidator":{"displayname":"Obligatoriskt","message":"Fältet är obligatoriskt."},"episerver.forms.implementation.validation.regularexpressionvalidator":{"displayname":"Reguljärt uttryck","message":"Fältet ska vara i \"{0}\"-format."},"episerver.forms.implementation.validation.captchavalidator":{"displayname":"Captcha","message":"Ange tecknen du ser i bilden."},"episerver.forms.implementation.validation.allowedextensionsvalidator":{"displayname":"Tillåtna filändelser","message":"Filformatet är inte tillåtet eller stöds inte.","allowedextensionsmessage":"Filformatet är inte tillåtet eller stöds inte. Filformatet ska vara: {0}."},"episerver.forms.implementation.validation.maxfilesizevalidator":{"displayname":"Max. tillåten filstorlek","message":"Filstorleken måste vara mindre än {0} MB."},"episerver.forms.implementation.validation.emailvalidator":{"displayname":"E-post","message":"Ange en giltig e-postadress."},"episerver.forms.implementation.validation.urlvalidator":{"displayname":"URL","message":"Ange en giltig URL."},"episerver.forms.implementation.validation.dateddmmyyyyvalidator":{"displayname":"Datum (DD/MM/ÅÅÅÅ)","message":"Ange ett datum i formatet DD/MM/ÅÅÅÅ."},"episerver.forms.implementation.validation.datemmddyyyyvalidator":{"displayname":"Datum (MM/DD/ÅÅÅÅ)","message":"Ange ett datum i formatet MM/DD/ÅÅÅÅ."},"episerver.forms.implementation.validation.dateyyyymmddvalidator":{"displayname":"Datum (ÅÅÅÅ-MM-DD)","message":"Ange ett datum i formatet ÅÅÅÅ-MM-DD."},"episerver.forms.implementation.validation.numericvalidator":{"displayname":"Numeriskt värde","message":"Ange ett giltigt värde."},"episerver.forms.implementation.validation.integervalidator":{"displayname":"Heltal","message":"Ange ett giltigt heltal."},"episerver.forms.implementation.validation.positiveintegervalidator":{"displayname":"Positivt heltal","message":"Ange ett giltigt positivt heltal."},"elementselfvalidator":{"unexpectedvalueisnotaccepted":"Ett icke förväntat värde accepteras inte."},"custommessage":{"resetbuttonlabel":"Återställ till standard","errormessagelabel":"Felmeddelande "}},"visitordatasources":{"episerver.forms.implementation.visitordata.ipaddressvisitordatasource":{"displayname":"IP-address"},"episerver.forms.implementation.visitordata.geovisitordatasource":{"displayname":"Geo","properties":{"city":"Stad","country_code":"Landskod","country_name":"Land","ip":"IP","latitude":"Latitud","longitude":"Longitud","region_code":"Regionkod","region_name":"Region","time_zone":"Tidszon","zip_code":"Postnummer"}},"episerver.forms.implementation.visitordata.profilevisitordatasource":{"displayname":"Profil","properties":{"address":"Adress","zipcode":"Postnummer","locality":"Område","email":"E-post","firstname":"Förnamn","lastname":"Efternamn","language":"Språk","country":"Land","company":"Företag","title":"Titel"}},"episerver.forms.implementation.visitordata.useragentvisitordatasource":{"displayname":"Användaragent","properties":{"ismobiledevice":"Mobiltelefon","useragent":"Användaragent"}},"episerver.forms.implementation.visitordata.visitorgroupvisitordatasource":{"displayname":"Besöksgrupper","properties":{"id":"Id","name":"Namn"}},"youmustselectvalueforhiddenvisitor":"Du måste välja ett värde för den valda typen av besöksdata."},"messages":{"fileupload":{"overfilesize":"Filstorleken måste vara mindre än {0} MB.","invalidfiletype":"Filformatet är inte tillåtet eller stöds inte.","postedfile":"(Tidigare skickade filer: {0})"},"formsubmission":{"outdatedforminit":"Din aktuella session för att se formuläret har gått ut. Uppdatera sidan för att fortsätta.","requirelogin":"Du måste vara inloggad för att skicka formuläret. Om du är inloggad och ändå inte kan skicka det, se till att \"Do not track\" inte är aktiverat i din webbläsares inställningar.","denymultisubmit":"Du har redan skickat det här formuläret.","submitsuccess":"Formuläret är inskickat.","validationfailformat":"Validering misslyckades på \"{0}\" fält: {1}","thereisnoformguid":"Data kunde inte skickas: det finns inget unikt ID för formuläret.","couldnotgetform":"Data kunde inte skickas: det gick inte att hämta formuläret med Id = {0}.","submitcancelled":"Teknisk information: Skicka-processen avbröts. Orsak: ","sessionoff":"Möjligheten att spara data för det här formuläret har stängts av.","formisrestricted":"Det gick inte att skicka in formuläret. Du har inte tillräckliga rättigheter.","formexpired":"Det gick inte att skicka formuläret. Formuläret har gått ut.","formdeleted":"Det gick inte att skicka formuläret. Formuläret har tagits bort.","submitnotsuccess":"Det gick inte att skicka formuläret."}},"dependcondition":{"notapplicable":"Inte tillämpligt","matchregularexpression":"Matcha med reguljärt uttryck","equals":"Är lika med","notequals":"Är inte lika med","contains":"Innehåller","notcontains":"Inte innehåller"},"imagechoiceitems":{"emptyactions":{"actions":{"createnewitem":"Skapa en länk till en bild"},"template":"Släpp en bild här.<br/>Du kan också {createnewitem}."},"menutooltip":"Visa meny"},"editview":{"elementdependant":"Det här fältet är beroende av andra fält","retentionperiod":{"partial":"delvis ifyllda","finalized":"helt ifyllda","default":"Standard","keepforsomedays":"{0} dagar","customization":"Anpassat (dagar):","keepforever":"För alltid","validation":{"errormessage":{"long":"Perioden som {0} formulärdata sparas måste vara ett heltal mellan {1} och {2}","short":"Värdet måste vara ett heltal mellan {0} och {1}"}},"revision":{"warningmessage":"Minst {0} sparade formulärdata påverkas av din policyändring"}},"notconfigured":"Inte konfigurerad än","insertplaceholder":"Infoga platshållare","selectanitem":"Välj ett objekt","externalsystems":"Mappa mot fält i externt system","connecteddatasource":"Anslut till datakälla","createemailtemplate":"Skapa e-postmall","editemailtemplate":"Redigera e-postmall","addwebhook":"Lägg till webhook","editwebhook":"Redigera webhook","selectpage":"Välj sida","usemanualinput":"Använd manuell inmatning","errorconditionalstepcannotcontainrequiredelement":"Formulärsteget ska inte kopplas till andra element eftersom det innehåller obligatoriskt element [{0}].","cannotbuildformmodel":"Det går inte att rendera formuläret. Det går inte att använda formulär på egenskaper, enbart på innehållsområden.","resetconnecteddatasource":"Återställ"},"viewmode":{"stepnavigation":{"previous":"Föregående steg","next":"Nästa steg","page":"Steg"},"untitled":"Namnlös","selection":{"selectanoption":"-- Välj ett alternativ --","selectoptions":"-- Välj alternativ --"},"reset":"Återställ formuläret","submit":"Skicka","refreshcaptcha":"Uppdatera captcha","captchalabel":"Ordverifiering","malformstepconfigruation":"Felkonstruerade formulärsteg. Vissa steg är kopplade till sidor, andra steg är inte kopplade till sidor eller kopplade till innehåll som saknar publik URL.","commonvalidationfail":"Elementvärdet är inte giltigt.","readonlymode":"Skrivskyddat läge. Inskickat data kommer inte sparas.","submissionactors":{"savedatatostorage":{"error":"Något gick fel. Kontakta din administratör för mer information."}}},"contentediting":{"fielddependency":{"condition":{"field":"Fält","operator":"Operator","value":"Värde"},"invalidcondition":"Villkoret gäller inte längre","conditiondialog":{"title":"Villkorsdetaljer"}},"optionitem":{"caption":"Val","value":"Värde","checked":"Markerat som standard","containsinvalidcharacter":"Kommatecken (,) tillåts inte."},"emailtemplateactor":{"fromemail":"Från","fromemaildescription":"Epostadress att skicka från","toemails":"Till","toemailsdescription":"Epostadress att skicka till, eller namnet på ett formulärfält som innehåller epostadress (för bekräftelseepost)","subject":"Ämne","subjectdescription":"Ämnesrad för e-post. Du kan använda #FIELDNAME# för att infoga värden från formuläret.","body":"Meddelande","bodydescription":"Meddelande. Du kan infoga värden från formuläret med #FIELDNAME# eller visa en översiktlig lista av formulärfälten med #SUMMARY#.","fromemailplaceholder":"namn@example.com","toemailsplaceholder":"adress@example.com","subjectplaceholder":"Ange ämne för e-posten"},"webhookactor":{"url":"Webhook-URL","urldescription":"Webhook-URL att skicka formulärdata till (http- eller https-protokoll).","jsonformat":"POST-data i JSON-format"},"validation":{"circulardependency":"Cirkelberoenden är inte tillåtna","greaterthanequaltoerrorformat":"{0} måste vara >= {1}.","lessthanequaltoerrorformat":"{0} måste vara <= {1}.","inrangeerrorformat":"\"{0}\" är inte ett giltigt värde för {1}. Endast siffror är tillåtna och {1} måste vara mellan [{2} - {3}].","stepinrangeerrorformat":"{0} måste vara >= 1 och <= värdet {2} - {1}.","positiveinteger":"Talet måste vara positivt."}},"admin":{"databasejob":{"updatemissingvalueofretentionpolicyjob":{"description":"Detta jobb uppdaterar formulär som saknar lagringsvärden.","displayname":"Uppdatering av formulär som saknar lagringsvärden.","returnmessage":"Uppdaterade formulär som saknade lagringsvärden."},"expiredformsubmissionremovejob":{"description":"\n                                Det här jobbet tar bort all formulärdata som har gått ut. Utgångsdatumet för formulärdata sätts i inställningarna för formuläret under Lagringspolicy. Alla formulärdata som hör till formulär som inte längre är tillgängliga kommer också att tas bort.\n                            ","displayname":"Rensning av formulärdata","returnmessage":"{0} utgångna formulärdata har tagits bort. {1} formulärdata från borttagna formulär har tagits bort."}}}}
+        }
+    });
+})();
+
+</script>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="pageid" content="6302">
+
+    <link href="/dist/css/vendors.css?cachebusting=202506171646" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/dist/css/index.css?cachebusting=202506171646">
+    <link rel="stylesheet" media="print" href="/Static/print.css">
+    <script>
+        trackPageView('');
+    </script>
+    <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-P9ZB6F');</script> <!-- End Google Tag Manager --> 
+</head>
+<body class="theme-1 page">
+    <!-- Google Tag Manager (noscript) --> <noscript><iframe title=”Google Tag Manager” src="https://www.googletagmanager.com/ns.html?id=GTM-P9ZB6F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> 
+    
+
+
+
+<header class="header">
+    <a href="#main" id="skip-link" class="skipLink">Hoppa till huvudinneh&#229;ll</a>
+    <div class="header__inner inner-container">
+        <div class="header__logo__container">
+            <a href="/" >
+                    <img src="/globalassets/kommerskollegium_logo.png" alt="Till startsidan kommerskollegium.se" />
+
+            </a>
+        </div>
+
+            <div class="header__mobile">
+                <button class="button--search" title="Sök" tabindex="0" onclick="toggleQuickSearch()"><i aria-hidden="true" class="ion-android-search"></i></button>
+
+                <button class="button button--toggle-menu__container" type="button" id="toggle-menu" aria-haspopup="true" aria-label="Meny">
+                    <span class="burger-text">Meny</span>
+                    <div class="button--toggle-menu">
+                        <span class="button--toggle-menu__inner"></span>
+                    </div>
+                </button>
+            </div>
+                    <div class="header__menus">
+                    <nav role="navigation" aria-label="Sekund&#228;r navigation" class="header__top-menu hide-sm">
+        <ul class="header__top-menu__list">
+                    <li class="header__top-menu__item">
+                        <a href="/om-oss/uppdrag/pressrum/"> Pressrum</a>
+                    </li>
+                    <li class="header__top-menu__item">
+                        <a href="/om-oss/uppdrag/lattlast/"> L&#228;ttl&#228;st</a>
+                    </li>
+                    <li class="header__top-menu__item">
+                        <a href="/om-oss/uppdrag/e-diarium/"> E-diarium</a>
+                    </li>
+            <li class="header__top-menu__item header__top-menu__item--search">
+                <button class="button--search hide-sm" title="Sök" tabindex="0" onclick="toggleQuickSearch()"><i aria-hidden="true" class="ion-android-search"></i>S&#246;k</button>
+            </li>
+            <li class="header__top-menu__item header__top-menu__item--english">
+
+
+        <a href="/en/about-us/our-mission/"  lang=en>
+            <span>In English</span>
+        </a>
+
+
+
+
+            </li>
+        </ul>
+    </nav>
+
+                <nav role="navigation" aria-label="Huvudmeny" class="header__main-menu hide-sm">
+                    
+
+
+
+
+    <ul class="header__main-menu__list level-1 expanded">
+            <li class="header__main-menu__item  active">
+                <a href="/om-oss/" class="mainMenuItem" id="mainMenuItem">
+                    Om oss
+                </a>
+
+            </li>
+    </ul>
+
+                </nav>
+                <nav role="navigation" aria-label="Huvudmeny" class="header__main-menu hide-lg">
+                    <div class="top_pages">
+
+
+
+
+    <ul class="header__main-menu__list level-1 expanded">
+            <li class="header__main-menu__item  active">
+                <a href="/om-oss/" class="mainMenuItem" id="mainMenuItem">
+                    Om oss
+                </a>
+
+                    <button class="button button--chevron  isOpen" data-open="Om oss &#246;ppna" data-close="Om oss st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2 expanded">
+            <li class="header__main-menu__item  active">
+                <a href="/om-oss/uppdrag/" class="mainMenuItem" id="mainMenuItem">
+                    V&#229;rt uppdrag
+                </a>
+
+                    <button class="button button--chevron  isOpen" data-open="V&#229;rt uppdrag &#246;ppna" data-close="V&#229;rt uppdrag st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3 expanded">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/historia/" class="mainMenuItem" id="mainMenuItem">
+                    Historia
+                </a>
+
+                    <button class="button button--chevron " data-open="Historia &#246;ppna" data-close="Historia st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/historia/kommerskollegiums-historia-i-artal/" class="mainMenuItem" id="mainMenuItem">
+                    Kommerskollegiums historia i &#229;rtal
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/styrning/" class="mainMenuItem" id="mainMenuItem">
+                    S&#229; styrs vi
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/forfattningssamling/" class="mainMenuItem" id="mainMenuItem">
+                    F&#246;rfattningssamling
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/e-diarium/" class="mainMenuItem" id="mainMenuItem">
+                    E-diarium
+                </a>
+
+                    <button class="button button--chevron " data-open="E-diarium &#246;ppna" data-close="E-diarium st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/e-diarium/dokument/" class="mainMenuItem" id="mainMenuItem">
+                    S&#246;k dokument
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/e-diarium/remissvar/" class="mainMenuItem" id="mainMenuItem">
+                    S&#246;k remissvar, pm och analyser
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item  active">
+                <a href="/om-oss/uppdrag/minoritetssprak/" class="mainMenuItem" id="mainMenuItem">
+                    Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k
+                </a>
+
+                    <button class="button button--chevron  isOpen" data-open="Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k &#246;ppna" data-close="Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4 expanded">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/minoritetssprak/suomen/" class="mainMenuItem" id="mainMenuItem">
+                    Suomen
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/minoritetssprak/samegiella/" class="mainMenuItem" id="mainMenuItem">
+                    S&#225;megiella
+                </a>
+
+            </li>
+            <li class="header__main-menu__item  active">
+                <a href="/om-oss/uppdrag/minoritetssprak/meankieli/" class="mainMenuItem" id="mainMenuItem">
+                    Me&#228;nkieli
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/minoritetssprak/jiddisch/" class="mainMenuItem" id="mainMenuItem">
+                    ייִדיש (Jiddisch)
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/minoritetssprak/romanes/" class="mainMenuItem" id="mainMenuItem">
+                    Roman&#233;s
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/lattlast/" class="mainMenuItem" id="mainMenuItem">
+                    L&#228;ttl&#228;st
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/pressrum/" class="mainMenuItem" id="mainMenuItem">
+                    Pressrum
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/uppdrag/behandling-av-personuppgifter/" class="mainMenuItem" id="mainMenuItem">
+                    Behandling av personuppgifter
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/nyheter/" class="mainMenuItem" id="mainMenuItem">
+                    Nyheter
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/" class="mainMenuItem" id="mainMenuItem">
+                    Kontakt
+                </a>
+
+                    <button class="button button--chevron " data-open="Kontakt &#246;ppna" data-close="Kontakt st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/studiebesok-pa-kommerskollegium/" class="mainMenuItem" id="mainMenuItem">
+                    Studiebes&#246;k p&#229; Kommerskollegium
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/fakturera-kommerskollegium-med-e-faktura/" class="mainMenuItem" id="mainMenuItem">
+                    Skicka faktura
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/anvanda-minoritetssprak/" class="mainMenuItem" id="mainMenuItem">
+                    Anv&#228;nda minoritetsspr&#229;k
+                </a>
+
+                    <button class="button button--chevron " data-open="Anv&#228;nda minoritetsspr&#229;k &#246;ppna" data-close="Anv&#228;nda minoritetsspr&#229;k st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/anvanda-minoritetssprak/kayttaa-suomea/" class="mainMenuItem" id="mainMenuItem">
+                    K&#228;ytt&#228;&#228; suomea
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/anvanda-minoritetssprak/kayttaa-meankielta/" class="mainMenuItem" id="mainMenuItem">
+                    K&#228;ytt&#228;&#228; me&#228;nkielt&#228;
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/anvanda-minoritetssprak/geavtit-samegiela/" class="mainMenuItem" id="mainMenuItem">
+                    Geavtit s&#225;megiela
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/handlingar-for-vidareutnyttjande/" class="mainMenuItem" id="mainMenuItem">
+                    Handlingar f&#246;r vidareutnyttjande
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/kontakt/visselblasartjanst/" class="mainMenuItem" id="mainMenuItem">
+                    Visselbl&#229;sartj&#228;nst
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/jobba-hos-oss/" class="mainMenuItem" id="mainMenuItem">
+                    Jobba hos oss
+                </a>
+
+                    <button class="button button--chevron " data-open="Jobba hos oss &#246;ppna" data-close="Jobba hos oss st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/jobba-hos-oss/lediga-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Lediga tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/jobba-hos-oss/prenumerera-pa-lediga-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Prenumerera p&#229; lediga tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/jobba-hos-oss/mot-vara-medarbetare/" class="mainMenuItem" id="mainMenuItem">
+                    M&#246;t v&#229;ra medarbetare
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/medarbetare/" class="mainMenuItem" id="mainMenuItem">
+                    S&#246;k medarbetare
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/organisation/" class="mainMenuItem" id="mainMenuItem">
+                    Organisation
+                </a>
+
+                    <button class="button button--chevron " data-open="Organisation &#246;ppna" data-close="Organisation st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/organisation/ledningsgrupp/" class="mainMenuItem" id="mainMenuItem">
+                    Ledningsgrupp
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/om-webbplatsen/" class="mainMenuItem" id="mainMenuItem">
+                    Om webbplatsen
+                </a>
+
+                    <button class="button button--chevron " data-open="Om webbplatsen &#246;ppna" data-close="Om webbplatsen st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/om-oss/om-webbplatsen/tillganglighet/" class="mainMenuItem" id="mainMenuItem">
+                    Tillg&#228;nglighetsredog&#246;relse
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+    </ul>
+</div>
+                    
+
+
+
+
+    <ul class="header__main-menu__list level-1">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/" class="mainMenuItem" id="mainMenuItem">
+                    EU-r&#228;tt och fri r&#246;rlighet
+                </a>
+
+                    <button class="button button--chevron " data-open="EU-r&#228;tt och fri r&#246;rlighet &#246;ppna" data-close="EU-r&#228;tt och fri r&#246;rlighet st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/solvit-loser-problem-i-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Solvit l&#246;ser problem i EU
+                </a>
+
+                    <button class="button button--chevron " data-open="Solvit l&#246;ser problem i EU &#246;ppna" data-close="Solvit l&#246;ser problem i EU st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/solvit-loser-problem-i-eu/solvit-sa-anmaler-du/" class="mainMenuItem" id="mainMenuItem">
+                    S&#229; anm&#228;ler du ditt problem till Solvit
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/solvit-loser-problem-i-eu/fiskforetag-kan-expandera-tack-vare-Solvit/" class="mainMenuItem" id="mainMenuItem">
+                    Intervju: Fiskf&#246;retag kan expandera tack vare Solvit
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/eu-medborgares-rattigheter/" class="mainMenuItem" id="mainMenuItem">
+                    EU-medborgares r&#228;ttigheter
+                </a>
+
+                    <button class="button button--chevron " data-open="EU-medborgares r&#228;ttigheter &#246;ppna" data-close="EU-medborgares r&#228;ttigheter st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/eu-medborgares-rattigheter/utan-personnummer-i-sverige/" class="mainMenuItem" id="mainMenuItem">
+                    Utan personnummer i Sverige
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/" class="mainMenuItem" id="mainMenuItem">
+                    Myndigheter, kommuner och EU-r&#228;tten
+                </a>
+
+                    <button class="button button--chevron " data-open="Myndigheter, kommuner och EU-r&#228;tten &#246;ppna" data-close="Myndigheter, kommuner och EU-r&#228;tten st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/eu-rattstest/" class="mainMenuItem" id="mainMenuItem">
+                    EU-r&#228;ttstest
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/IMI/" class="mainMenuItem" id="mainMenuItem">
+                    Informationssystemet f&#246;r den inre marknaden – IMI
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/tekniska-foreskrifter/" class="mainMenuItem" id="mainMenuItem">
+                    Tekniska f&#246;reskrifter
+                </a>
+
+                    <button class="button button--chevron " data-open="Tekniska f&#246;reskrifter &#246;ppna" data-close="Tekniska f&#246;reskrifter st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/tekniska-foreskrifter/bevaka-tekniska-foreskrifter/" class="mainMenuItem" id="mainMenuItem">
+                    Bevaka tekniska f&#246;reskrifter
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/tjanstedirektivet/" class="mainMenuItem" id="mainMenuItem">
+                    Tj&#228;nstedirektivet
+                </a>
+
+                    <button class="button button--chevron " data-open="Tj&#228;nstedirektivet &#246;ppna" data-close="Tj&#228;nstedirektivet st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/tjanstedirektivet/anmal-foreskrifter-om-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Anm&#228;l f&#246;reskrifter om tj&#228;nster
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/dataflodesforordningen/" class="mainMenuItem" id="mainMenuItem">
+                    Datafl&#246;desf&#246;rordningen
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/omsesidigt-erkannande/" class="mainMenuItem" id="mainMenuItem">
+                    F&#246;rordningen om &#246;msesidigt erk&#228;nnande
+                </a>
+
+                    <button class="button button--chevron " data-open="F&#246;rordningen om &#246;msesidigt erk&#228;nnande &#246;ppna" data-close="F&#246;rordningen om &#246;msesidigt erk&#228;nnande st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/omsesidigt-erkannande/viktigt-att-proceduren-foljs/" class="mainMenuItem" id="mainMenuItem">
+                    Fall: Viktigt att proceduren f&#246;ljs
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/fysiska-hinder-for-varuhandel/" class="mainMenuItem" id="mainMenuItem">
+                    Fysiska hinder f&#246;r varuhandel
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/" class="mainMenuItem" id="mainMenuItem">
+                    Importera och exportera
+                </a>
+
+                    <button class="button button--chevron " data-open="Importera och exportera &#246;ppna" data-close="Importera och exportera st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-inom-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Handla inom EU
+                </a>
+
+                    <button class="button button--chevron " data-open="Handla inom EU &#246;ppna" data-close="Handla inom EU st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-inom-eu/handla-med-varor-inom-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Regler f&#246;r varor inom EU
+                </a>
+
+                    <button class="button button--chevron " data-open="Regler f&#246;r varor inom EU &#246;ppna" data-close="Regler f&#246;r varor inom EU st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-inom-eu/handla-med-varor-inom-eu/fragor-och-svar-kontaktpunkten-for-varor/" class="mainMenuItem" id="mainMenuItem">
+                    Fr&#229;gor och svar om kontaktpunkten f&#246;r varor
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-inom-eu/handla-med-tjanster-inom-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Regler f&#246;r tj&#228;nster inom EU
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-inom-eu/geoblockering/" class="mainMenuItem" id="mainMenuItem">
+                    Geoblockering
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-inom-eu/plattformsforordningen/" class="mainMenuItem" id="mainMenuItem">
+                    Plattformsf&#246;rordningen
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Handla utanf&#246;r EU
+                </a>
+
+                    <button class="button button--chevron " data-open="Handla utanf&#246;r EU &#246;ppna" data-close="Handla utanf&#246;r EU st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handelskonflikten-usa-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Handelskonflikten USA–EU
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-norge/" class="mainMenuItem" id="mainMenuItem">
+                    Handla med Norge
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-utvecklingslander/" class="mainMenuItem" id="mainMenuItem">
+                    Handla med utvecklingsl&#228;nder
+                </a>
+
+                    <button class="button button--chevron " data-open="Handla med utvecklingsl&#228;nder &#246;ppna" data-close="Handla med utvecklingsl&#228;nder st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-utvecklingslander/hitta-foretag-inom-modeindustrin-i-georgien/" class="mainMenuItem" id="mainMenuItem">
+                    Hitta f&#246;retag inom modeindustrin i Armenien, Georgien, Moldavien och Ukraina
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-utvecklingslander/hitta-producenter-av-livsmedel-i-bolivia-moldavien-och-ukraina/" class="mainMenuItem" id="mainMenuItem">
+                    Hitta producenter av livsmedel i Bolivia, Moldavien och Ukraina
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-utvecklingslander/hitta-partner-inom-tech-sektorn-i-moldavien-och-ukraina/" class="mainMenuItem" id="mainMenuItem">
+                    Hitta partner inom tech-sektorn i Moldavien och Ukraina
+                </a>
+
+                    <button class="button button--chevron " data-open="Hitta partner inom tech-sektorn i Moldavien och Ukraina &#246;ppna" data-close="Hitta partner inom tech-sektorn i Moldavien och Ukraina st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-utvecklingslander/hitta-partner-inom-tech-sektorn-i-moldavien-och-ukraina/ukrainska-foretag-med-tech-kompetens-soker-partner-i-sverige/" class="mainMenuItem" id="mainMenuItem">
+                    Ukrainska f&#246;retag med tech-kompetens s&#246;ker partner i Sverige
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handla-med-utvecklingslander/hitta-partner-inom-tech-sektorn-i-moldavien-och-ukraina/moldaviska-tech-foretag-fokuserar-pa-den-svenska-marknaden/" class="mainMenuItem" id="mainMenuItem">
+                    Moldaviska tech-f&#246;retag fokuserar p&#229; den svenska marknaden
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/ursprungsregler-i-frihandelsavtal/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsregler i frihandelsavtal
+                </a>
+
+                    <button class="button button--chevron " data-open="Ursprungsregler i frihandelsavtal &#246;ppna" data-close="Ursprungsregler i frihandelsavtal st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/ursprungsregler-i-frihandelsavtal/allmanna-ursprungsregler/" class="mainMenuItem" id="mainMenuItem">
+                    Allm&#228;nna ursprungsregler
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/ursprungsregler-i-frihandelsavtal/pem-konventionen-innebar-forenklade-ursprungsregler/" class="mainMenuItem" id="mainMenuItem">
+                    Pem-konventionen
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/ursprungsregler-i-frihandelsavtal/made-in-sweden/" class="mainMenuItem" id="mainMenuItem">
+                    Intervju: M&#228;rkningen Made in Sweden
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/tullbefrielser-pa-insatsvaror/" class="mainMenuItem" id="mainMenuItem">
+                    Tullbefrielser p&#229; insatsvaror
+                </a>
+
+                    <button class="button button--chevron " data-open="Tullbefrielser p&#229; insatsvaror &#246;ppna" data-close="Tullbefrielser p&#229; insatsvaror st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/tullbefrielser-pa-insatsvaror/tullbefrielser/" class="mainMenuItem" id="mainMenuItem">
+                    G&#228;llande tullbefrielser
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/tullbefrielser-pa-insatsvaror/ansok-om-tullbefrielse/" class="mainMenuItem" id="mainMenuItem">
+                    Ans&#246;k om tullbefrielse
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/tullbefrielser-pa-insatsvaror/aktiv-och-passiv-foradling/" class="mainMenuItem" id="mainMenuItem">
+                    Aktiv och passiv f&#246;r&#228;dling
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handelspolitiska-skyddsinstrument/" class="mainMenuItem" id="mainMenuItem">
+                    Handelspolitiska skyddsinstrument
+                </a>
+
+                    <button class="button button--chevron " data-open="Handelspolitiska skyddsinstrument &#246;ppna" data-close="Handelspolitiska skyddsinstrument st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handelspolitiska-skyddsinstrument/information-om-handelspolitiska-skyddsinstrument/" class="mainMenuItem" id="mainMenuItem">
+                    Information om handelspolitiska skyddsinstrument
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/handelspolitiska-skyddsinstrument/eus-antidumpningsatgarder/" class="mainMenuItem" id="mainMenuItem">
+                    EU:s antidumpnings&#229;tg&#228;rder
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/" class="mainMenuItem" id="mainMenuItem">
+                    Undantag fr&#229;n exportf&#246;rbud
+                </a>
+
+                    <button class="button button--chevron " data-open="Undantag fr&#229;n exportf&#246;rbud &#246;ppna" data-close="Undantag fr&#229;n exportf&#246;rbud st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/" class="mainMenuItem" id="mainMenuItem">
+                    Internationella sanktioner
+                </a>
+
+                    <button class="button button--chevron " data-open="Internationella sanktioner &#246;ppna" data-close="Internationella sanktioner st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/cyberattacker/" class="mainMenuItem" id="mainMenuItem">
+                    Cyberattacker
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/kemiska-vapen/" class="mainMenuItem" id="mainMenuItem">
+                    Kemiska vapen
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/manskliga-rattigheter/" class="mainMenuItem" id="mainMenuItem">
+                    M&#228;nskliga r&#228;ttigheter
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-belarus/" class="mainMenuItem" id="mainMenuItem">
+                    Belarus
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-burundi/" class="mainMenuItem" id="mainMenuItem">
+                    Burundi
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-centralafrikanska-republiken/" class="mainMenuItem" id="mainMenuItem">
+                    Centralafrikanska republiken
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/guatemala/" class="mainMenuItem" id="mainMenuItem">
+                    Guatemala
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-guinea-bissau/" class="mainMenuItem" id="mainMenuItem">
+                    Guinea-Bissau
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/haiti/" class="mainMenuItem" id="mainMenuItem">
+                    Haiti
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-irak/" class="mainMenuItem" id="mainMenuItem">
+                    Irak
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-iran/" class="mainMenuItem" id="mainMenuItem">
+                    Iran
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-jemen/" class="mainMenuItem" id="mainMenuItem">
+                    Jemen
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-libyen/" class="mainMenuItem" id="mainMenuItem">
+                    Libyen
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-mali/" class="mainMenuItem" id="mainMenuItem">
+                    Mali
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/myanmar/" class="mainMenuItem" id="mainMenuItem">
+                    Myanmar
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/nicaragua/" class="mainMenuItem" id="mainMenuItem">
+                    Nicaragua
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-nordkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Nordkorea
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-ryssland/" class="mainMenuItem" id="mainMenuItem">
+                    Ryssland sanktioner
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-sudan/" class="mainMenuItem" id="mainMenuItem">
+                    Sudan
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-sydsudan/" class="mainMenuItem" id="mainMenuItem">
+                    Sydsudan
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-syrien/" class="mainMenuItem" id="mainMenuItem">
+                    Syrien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/turkiet/" class="mainMenuItem" id="mainMenuItem">
+                    Turkiet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-ukraina/" class="mainMenuItem" id="mainMenuItem">
+                    Ukraina, Krim och Sevastopol
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/sanktioner-mot-venezuela/" class="mainMenuItem" id="mainMenuItem">
+                    Venezuela
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/zimbabwe/" class="mainMenuItem" id="mainMenuItem">
+                    Zimbabwe
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/tillstand-for-handel-med-varor-for-bland-annat-tortyr/" class="mainMenuItem" id="mainMenuItem">
+                    Begr&#228;nsningar och f&#246;rbud f&#246;r varor som kan anv&#228;ndas f&#246;r tortyr
+                </a>
+
+                    <button class="button button--chevron " data-open="Begr&#228;nsningar och f&#246;rbud f&#246;r varor som kan anv&#228;ndas f&#246;r tortyr &#246;ppna" data-close="Begr&#228;nsningar och f&#246;rbud f&#246;r varor som kan anv&#228;ndas f&#246;r tortyr st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/tillstand-for-handel-med-varor-for-bland-annat-tortyr/ansok-om-tillstand-for-handel-med-varor-for-bland-annat-tortyr/" class="mainMenuItem" id="mainMenuItem">
+                    Ans&#246;k om tillst&#229;nd f&#246;r handel med varor f&#246;r bland annat tortyr
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/" class="mainMenuItem" id="mainMenuItem">
+                    EU:s handelsavtal
+                </a>
+
+                    <button class="button button--chevron " data-open="EU:s handelsavtal &#246;ppna" data-close="EU:s handelsavtal st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/australien/" class="mainMenuItem" id="mainMenuItem">
+                    Australien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/chile/" class="mainMenuItem" id="mainMenuItem">
+                    Chile
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/hongkong/" class="mainMenuItem" id="mainMenuItem">
+                    Hongkong
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/indien/" class="mainMenuItem" id="mainMenuItem">
+                    Indien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/indonesien/" class="mainMenuItem" id="mainMenuItem">
+                    Indonesien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/" class="mainMenuItem" id="mainMenuItem">
+                    Japan
+                </a>
+
+                    <button class="button button--chevron " data-open="Japan &#246;ppna" data-close="Japan st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/innehallet-i-avtalet/" class="mainMenuItem" id="mainMenuItem">
+                    Inneh&#229;llet i avtalet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/faq-om-avtalet/" class="mainMenuItem" id="mainMenuItem">
+                    FAQ om avtalet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/exportera-varor-till-japan/" class="mainMenuItem" id="mainMenuItem">
+                    Exportera varor till Japan
+                </a>
+
+                    <button class="button button--chevron " data-open="Exportera varor till Japan &#246;ppna" data-close="Exportera varor till Japan st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/exportera-varor-till-japan/market-access-database---for-export-till-japan/" class="mainMenuItem" id="mainMenuItem">
+                    Access2Markets – guide f&#246;r f&#246;retag
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/importera-varor-fran-japan/" class="mainMenuItem" id="mainMenuItem">
+                    Importera varor fr&#229;n Japan
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/ursprungsregler-i-varuhandeln-med-japan/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsregler i varuhandeln med Japan
+                </a>
+
+                    <button class="button button--chevron " data-open="Ursprungsregler i varuhandeln med Japan &#246;ppna" data-close="Ursprungsregler i varuhandeln med Japan st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/japan/ursprungsregler-i-varuhandeln-med-japan/sa-laser-du-ursprungsreglerna/" class="mainMenuItem" id="mainMenuItem">
+                    S&#229; l&#228;ser du ursprungsreglerna
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/" class="mainMenuItem" id="mainMenuItem">
+                    Kanada (Ceta)
+                </a>
+
+                    <button class="button button--chevron " data-open="Kanada (Ceta) &#246;ppna" data-close="Kanada (Ceta) st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/" class="mainMenuItem" id="mainMenuItem">
+                    Handla med varor
+                </a>
+
+                    <button class="button button--chevron " data-open="Handla med varor &#246;ppna" data-close="Handla med varor st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/exportera-till-kanada/" class="mainMenuItem" id="mainMenuItem">
+                    Exportera till Kanada
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/importera-fran-kanada/" class="mainMenuItem" id="mainMenuItem">
+                    Importera fr&#229;n Kanada
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/hitta-kanadas-importtullsatser/" class="mainMenuItem" id="mainMenuItem">
+                    Hitta Kanadas importtullsatser
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/tullsankningar-vid-import-till-kanada/" class="mainMenuItem" id="mainMenuItem">
+                    Tulls&#228;nkningar vid import till Kanada
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/uppfyll-ursprungsreglerna-i-ceta/" class="mainMenuItem" id="mainMenuItem">
+                    Uppfyll ursprungsreglerna
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/ursprungsreglerna/" class="mainMenuItem" id="mainMenuItem">
+                    Guide till ursprungsreglerna
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-varor/tullsankningar-vid-import-till-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Tulls&#228;nkningar vid import till EU
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/handla-med-tjanster-i-ceta/" class="mainMenuItem" id="mainMenuItem">
+                    Handla med tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/offentlig-upphandling-i-ceta/" class="mainMenuItem" id="mainMenuItem">
+                    Offentlig upphandling
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/" class="mainMenuItem" id="mainMenuItem">
+                    Kort om inneh&#229;llet
+                </a>
+
+                    <button class="button button--chevron " data-open="Kort om inneh&#229;llet &#246;ppna" data-close="Kort om inneh&#229;llet st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/" class="mainMenuItem" id="mainMenuItem">
+                    Ceta kapitel f&#246;r kapitel
+                </a>
+
+                    <button class="button button--chevron " data-open="Ceta kapitel f&#246;r kapitel &#246;ppna" data-close="Ceta kapitel f&#246;r kapitel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-6">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-01-allmanna-definitioner-och-inledande-bestammelser/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 01: Allm&#228;nna definitioner och inledande best&#228;mmelser
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel02-nationell-behandling-och-marknadstilltrade-for-varor/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 02: Nationell behandling och marknadstilltr&#228;de f&#246;r varor
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-03-allmana-definitioner-och-inledande-bestammelser/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 03: Handelspolitiska skydds&#229;tg&#228;rder
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-04-tekniska-handelshinder/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 04: Tekniska handelshinder
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-05-sanitara-och-fytosanitara-atgarder/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 05: Sanit&#228;ra och fytosanit&#228;ra &#229;tg&#228;rder
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-06-tull-och-forenklade-handelsprocedurer/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 06: Tull och f&#246;renklade handelsprocedurer
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-07-subventioner/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 07: Subventioner
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-08-investeringar/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 08: Investeringar
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-09-gransoverskridande-handel-med-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 09: Gr&#228;ns&#246;verskridande handel med tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-10-fysiska-personers-inresa-och-tillfalligt-vistelse-for-affarsandamal/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 10: Fysiska personers inresa och tillf&#228;lligt vistelse f&#246;r aff&#228;rs&#228;ndam&#229;l
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-11-omsesidigt-erkannande-av-yrkeskvalifikationer/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 11: &#214;msesidigt erk&#228;nnande av yrkeskvalifikationer
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-12-inhemska-regleringar/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 12: Inhemska regleringar
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-13-inhemska-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 13: Finansiella tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/internationella-sjotransporttjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 14: Internationella sj&#246;transporttj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-15-telekommunikation/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 15: Telekommunikation
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-16-elektronisk-handel/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 16: Elektronisk handel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-17konkurrenspolitik/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 17: Konkurrenspolitik
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-18-statliga-foretag/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 18: Statliga f&#246;retag, monopol och f&#246;retag som beviljats s&#228;rskilda r&#228;ttigheter eller privilegier
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/sammanfattning-av-avtalet/ceta-kapitel-for-kapitel/kapitel-20-immateriella-rattigheter/" class="mainMenuItem" id="mainMenuItem">
+                    Kapitel 20: Immateriella r&#228;ttigheter
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/faq-for-foretag/" class="mainMenuItem" id="mainMenuItem">
+                    FAQ f&#246;r f&#246;retag
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/faq-jordbruk-och-livsmedel/" class="mainMenuItem" id="mainMenuItem">
+                    FAQ Jordbruk och livsmedel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kanada-ceta/faq-investeringsskydd/" class="mainMenuItem" id="mainMenuItem">
+                    FAQ Investeringsskydd
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/kina/" class="mainMenuItem" id="mainMenuItem">
+                    Kina
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/mercosur/" class="mainMenuItem" id="mainMenuItem">
+                    Mercosur
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/mexiko/" class="mainMenuItem" id="mainMenuItem">
+                    Mexiko
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/nya-zeeland/" class="mainMenuItem" id="mainMenuItem">
+                    Nya Zeeland
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/ryssland/" class="mainMenuItem" id="mainMenuItem">
+                    Ryssland
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/saudiarabien/" class="mainMenuItem" id="mainMenuItem">
+                    Saudiarabien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/schweiz/" class="mainMenuItem" id="mainMenuItem">
+                    Schweiz
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/singapore/" class="mainMenuItem" id="mainMenuItem">
+                    Singapore
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/" class="mainMenuItem" id="mainMenuItem">
+                    Storbritannien
+                </a>
+
+                    <button class="button button--chevron " data-open="Storbritannien &#246;ppna" data-close="Storbritannien st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Handla med varor
+                </a>
+
+                    <button class="button button--chevron " data-open="Handla med varor &#246;ppna" data-close="Handla med varor st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/tullar-i-handeln-med-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Tullar
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/ursprungsregler-i-varuhandeln-med-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsregler
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/transportera-och-deklarera-varor/" class="mainMenuItem" id="mainMenuItem">
+                    Transportera och deklarera varor
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/produktkrav-for-varor/" class="mainMenuItem" id="mainMenuItem">
+                    Produktkrav f&#246;r varor
+                </a>
+
+                    <button class="button button--chevron " data-open="Produktkrav f&#246;r varor &#246;ppna" data-close="Produktkrav f&#246;r varor st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-6">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/produktkrav-for-varor/ce-markning-blir-ukca-markning-i-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    UKCA-m&#228;rkning
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/produktkrav-for-varor/ekologiska-produkter/" class="mainMenuItem" id="mainMenuItem">
+                    Ekologiska produkter
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/produktkrav-for-varor/standarder-efter-brexit/" class="mainMenuItem" id="mainMenuItem">
+                    Standarder
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/villkor-och-krav-i-handeln-med-jordbruksvaror-och-livsmedel-mellan-eu-och-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Jordbruksvaror och livsmedel
+                </a>
+
+                    <button class="button button--chevron " data-open="Jordbruksvaror och livsmedel &#246;ppna" data-close="Jordbruksvaror och livsmedel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-6">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/villkor-och-krav-i-handeln-med-jordbruksvaror-och-livsmedel-mellan-eu-och-storbritannien/risk-for-olika-regler/" class="mainMenuItem" id="mainMenuItem">
+                    Risk f&#246;r olika regler
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/villkor-och-krav-i-handeln-med-jordbruksvaror-och-livsmedel-mellan-eu-och-storbritannien/forenkla-handeln/" class="mainMenuItem" id="mainMenuItem">
+                    F&#246;renkla handeln
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/handla-med-varor-med-storbritannien/folj-nya-brittiska-regler/" class="mainMenuItem" id="mainMenuItem">
+                    F&#246;lj nya brittiska regler
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/tjanstehandel/" class="mainMenuItem" id="mainMenuItem">
+                    Handla med tj&#228;nster
+                </a>
+
+                    <button class="button button--chevron " data-open="Handla med tj&#228;nster &#246;ppna" data-close="Handla med tj&#228;nster st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/tjanstehandel/arbeta-i-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Arbeta i Storbritannien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/tjanstehandel/finansiella-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Finansiella tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/tjanstehandel/juridiska-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Juridiska tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/tjanstehandel/transporttjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Transporttj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/tjanstehandel/audiovisuella-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    Audiovisuella tj&#228;nster
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/digitala-fragor/" class="mainMenuItem" id="mainMenuItem">
+                    Data&#246;verf&#246;ring och e-handel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/immaterialratt-efter-brexit/" class="mainMenuItem" id="mainMenuItem">
+                    Immaterialr&#228;tt
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/offentlig-upphandling-efter-brexit/" class="mainMenuItem" id="mainMenuItem">
+                    Offentlig upphandling
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/kort-om-innehallet-i-avtalet-mellan-EU-och-Storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Kort om inneh&#229;llet i avtalet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/sveriges-direktinvesteringar-med-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Direktinvesteringar med Storbritannien
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/brittisk-information-om-handeln-med-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    Brittisk information
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/storbritannien-efter-brexit/vanliga-fragor-fran-foretag/" class="mainMenuItem" id="mainMenuItem">
+                    Vanliga fr&#229;gor fr&#229;n f&#246;retag
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Sydkorea
+                </a>
+
+                    <button class="button button--chevron " data-open="Sydkorea &#246;ppna" data-close="Sydkorea st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/importera-varor-fran-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Importera varor fr&#229;n Sydkorea
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/exportera-varor-till-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Exportera varor till Sydkorea
+                </a>
+
+                    <button class="button button--chevron " data-open="Exportera varor till Sydkorea &#246;ppna" data-close="Exportera varor till Sydkorea st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/exportera-varor-till-sydkorea/exportera-industriprodukter-till-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Exportera industriprodukter
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/exportera-varor-till-sydkorea/exportera-fisk-eller-fiskprodukter-till-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Exportera fisk eller fiskprodukter
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/exportera-varor-till-sydkorea/exportera-jordbruksprodukter-eller-livsmedel/" class="mainMenuItem" id="mainMenuItem">
+                    Exportera jordbruksprodukter eller livsmedel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/exportera-varor-till-sydkorea/ataganden-om-tekniska-regler/" class="mainMenuItem" id="mainMenuItem">
+                    &#197;taganden om tekniska regler
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/ursprungsregler/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsregler
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/salja-eller-kopa-tjanster/" class="mainMenuItem" id="mainMenuItem">
+                    S&#228;lja eller k&#246;pa tj&#228;nster
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/fragor-och-svar-om-avtalet-eu-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Fr&#229;gor och svar om avtalet EU–Sydkorea
+                </a>
+
+                    <button class="button button--chevron " data-open="Fr&#229;gor och svar om avtalet EU–Sydkorea &#246;ppna" data-close="Fr&#229;gor och svar om avtalet EU–Sydkorea st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/fragor-och-svar-om-avtalet-eu-sydkorea/Paverka-handeln-med-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    P&#229;verka handeln med Sydkorea
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/fragor-och-svar-om-avtalet-eu-sydkorea/hallbarhet-i-handeln-eu-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    H&#229;llbarhet i handeln
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/fragor-och-svar-om-avtalet-eu-sydkorea/delta-i-offentlig-upphandling-i-sydkorea/" class="mainMenuItem" id="mainMenuItem">
+                    Delta i offentlig upphandling
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/sydkorea/fragor-och-svar-om-avtalet-eu-sydkorea/flytta-personalaffarsresor/" class="mainMenuItem" id="mainMenuItem">
+                    Flytta personal och g&#246;ra aff&#228;rsresor
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/thailand/" class="mainMenuItem" id="mainMenuItem">
+                    Thailand
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/turkiet/" class="mainMenuItem" id="mainMenuItem">
+                    Turkiet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/ukraina/" class="mainMenuItem" id="mainMenuItem">
+                    Ukraina
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/usa/" class="mainMenuItem" id="mainMenuItem">
+                    USA
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/vietnam/" class="mainMenuItem" id="mainMenuItem">
+                    Vietnam
+                </a>
+
+                    <button class="button button--chevron " data-open="Vietnam &#246;ppna" data-close="Vietnam st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/vietnam/ursprungsreglerna-i-eu-vietnams-frihandelsavtal/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsreglerna EU - Vietnam
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/vietnam/vietnam-och-gsp/" class="mainMenuItem" id="mainMenuItem">
+                    Vietnam och GSP
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/eus-handelsavtal/ees-landerna/" class="mainMenuItem" id="mainMenuItem">
+                    EES-l&#228;nderna
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/paverka-handelsreglerna/" class="mainMenuItem" id="mainMenuItem">
+                    P&#229;verka handelsreglerna
+                </a>
+
+                    <button class="button button--chevron " data-open="P&#229;verka handelsreglerna &#246;ppna" data-close="P&#229;verka handelsreglerna st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/paverka-handelsreglerna/pagaende-konsultationer/" class="mainMenuItem" id="mainMenuItem">
+                    P&#229;g&#229;ende konsultationer
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/paverka-handelsreglerna/intervju-mojlighet-att-paverka-forhandlingar-om-frihandelsavtal/" class="mainMenuItem" id="mainMenuItem">
+                    Intervju: M&#246;jlighet att p&#229;verka f&#246;rhandlingar om frihandelsavtal
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/paverka-handelsreglerna/tekniska-foreskrifter/" class="mainMenuItem" id="mainMenuItem">
+                    Tekniska f&#246;reskrifter
+                </a>
+
+                    <button class="button button--chevron " data-open="Tekniska f&#246;reskrifter &#246;ppna" data-close="Tekniska f&#246;reskrifter st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/paverka-handelsreglerna/tekniska-foreskrifter/forum-for-tekniska-regler/" class="mainMenuItem" id="mainMenuItem">
+                    Forum f&#246;r tekniska regler
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/paverka-handelsreglerna/standarder/" class="mainMenuItem" id="mainMenuItem">
+                    Standarder
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/anmal-handelshinder/" class="mainMenuItem" id="mainMenuItem">
+                    Anm&#228;l handelshinder
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/importera--exportera/nyhetsbrev-foretag/" class="mainMenuItem" id="mainMenuItem">
+                    Nyhetsbrev f&#246;r f&#246;retag
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/" class="mainMenuItem" id="mainMenuItem">
+                    Utrikeshandel och statistik
+                </a>
+
+                    <button class="button button--chevron " data-open="Utrikeshandel och statistik &#246;ppna" data-close="Utrikeshandel och statistik st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/" class="mainMenuItem" id="mainMenuItem">
+                    Handelsstatistik
+                </a>
+
+                    <button class="button button--chevron " data-open="Handelsstatistik &#246;ppna" data-close="Handelsstatistik st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/total-handel/" class="mainMenuItem" id="mainMenuItem">
+                    Total handel
+                </a>
+
+                    <button class="button button--chevron " data-open="Total handel &#246;ppna" data-close="Total handel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/total-handel/bytesbalansen/" class="mainMenuItem" id="mainMenuItem">
+                    Bytesbalansen
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/varuhandel/" class="mainMenuItem" id="mainMenuItem">
+                    Varuhandel
+                </a>
+
+                    <button class="button button--chevron " data-open="Varuhandel &#246;ppna" data-close="Varuhandel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/varuhandel/sveriges-viktigaste-handelspartner/" class="mainMenuItem" id="mainMenuItem">
+                    Sveriges viktigaste handelspartner
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/varuhandel/fordelning/" class="mainMenuItem" id="mainMenuItem">
+                    Varuhandel per land och region
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/varuhandel/varugrupper/" class="mainMenuItem" id="mainMenuItem">
+                    Handel utifr&#229;n varugrupper
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/varuhandel/hitta-handelsstatistik-for-ett-land-eller-region/" class="mainMenuItem" id="mainMenuItem">
+                    Detaljerad  statistik per land och region
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/tjanstehandel/" class="mainMenuItem" id="mainMenuItem">
+                    Tj&#228;nstehandel
+                </a>
+
+                    <button class="button button--chevron " data-open="Tj&#228;nstehandel &#246;ppna" data-close="Tj&#228;nstehandel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/tjanstehandel/fordelning/" class="mainMenuItem" id="mainMenuItem">
+                    Tj&#228;nstehandel per land och region
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/tjanstehandel/tjanstekategorier/" class="mainMenuItem" id="mainMenuItem">
+                    Handel utifr&#229;n tj&#228;nsteslag
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/direktinvesteringar/" class="mainMenuItem" id="mainMenuItem">
+                    Direktinvesteringar
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/om-statistiken/" class="mainMenuItem" id="mainMenuItem">
+                    Om statistiken
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/handelsstatistik/analys-handelsstatistik/" class="mainMenuItem" id="mainMenuItem">
+                    Analys handelsstatistik
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/" class="mainMenuItem" id="mainMenuItem">
+                    Utrikeshandel
+                </a>
+
+                    <button class="button button--chevron " data-open="Utrikeshandel &#246;ppna" data-close="Utrikeshandel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/varuhandel/" class="mainMenuItem" id="mainMenuItem">
+                    Varuhandel
+                </a>
+
+                    <button class="button button--chevron " data-open="Varuhandel &#246;ppna" data-close="Varuhandel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/varuhandel/tekniska-handelshinder/" class="mainMenuItem" id="mainMenuItem">
+                    Tekniska handelshinder
+                </a>
+
+                    <button class="button button--chevron " data-open="Tekniska handelshinder &#246;ppna" data-close="Tekniska handelshinder st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/varuhandel/tekniska-handelshinder/hur-ursprungsmarkning-av-livsmedel-kan-paverka-eu-handel/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsm&#228;rkning av livsmedel
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/varuhandel/ursprungsregler/" class="mainMenuItem" id="mainMenuItem">
+                    Ursprungsregler
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/varuhandel/tullar/" class="mainMenuItem" id="mainMenuItem">
+                    Tullar
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/tjanstehandel/" class="mainMenuItem" id="mainMenuItem">
+                    Tj&#228;nstehandel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/direktinvesteringar/" class="mainMenuItem" id="mainMenuItem">
+                    Direktinvesteringar
+                </a>
+
+                    <button class="button button--chevron " data-open="Direktinvesteringar &#246;ppna" data-close="Direktinvesteringar st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/direktinvesteringar/investeringsgranskning/" class="mainMenuItem" id="mainMenuItem">
+                    Investeringsgranskning
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/direktinvesteringar/investeringsskydd/" class="mainMenuItem" id="mainMenuItem">
+                    Investeringsskydd
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/frihandel/" class="mainMenuItem" id="mainMenuItem">
+                    Frihandel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/protektionism/" class="mainMenuItem" id="mainMenuItem">
+                    Protektionism
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/handelshinder/" class="mainMenuItem" id="mainMenuItem">
+                    Handelshinder
+                </a>
+
+                    <button class="button button--chevron " data-open="Handelshinder &#246;ppna" data-close="Handelshinder st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/handelshinder/nya-varuregler-maste-anmalas-till-eu-kommissionen/" class="mainMenuItem" id="mainMenuItem">
+                    Nya varuregler m&#229;ste anm&#228;las till EU-kommissionen
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/vad-ar-en-standard/" class="mainMenuItem" id="mainMenuItem">
+                    Standarder
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/internationell-handel-under-utveckling/" class="mainMenuItem" id="mainMenuItem">
+                    Internationell handel under utveckling
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/utrikeshandel/handel-a-o/" class="mainMenuItem" id="mainMenuItem">
+                    Handel A-&#214;
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/de-fyra-friheterna-basen-i-den-inre-marknaden/" class="mainMenuItem" id="mainMenuItem">
+                    De fyra friheterna – basen i den inre marknaden
+                </a>
+
+                    <button class="button button--chevron " data-open="De fyra friheterna – basen i den inre marknaden &#246;ppna" data-close="De fyra friheterna – basen i den inre marknaden st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/de-fyra-friheterna-basen-i-den-inre-marknaden/fri-rorlighet-for-ees-landerna/" class="mainMenuItem" id="mainMenuItem">
+                    Fri r&#246;rlighet f&#246;r EES-l&#228;nderna
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/de-fyra-friheterna-basen-i-den-inre-marknaden/eus-inre-marknad-historisk-bakgrund/" class="mainMenuItem" id="mainMenuItem">
+                    EU:s inre marknad – historisk bakgrund
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/de-fyra-friheterna-basen-i-den-inre-marknaden/jakt--och-fiskekort-till-begransad-kundkrets/" class="mainMenuItem" id="mainMenuItem">
+                    Jakt- och fiskekort till begr&#228;nsad kundkrets
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/internationell-handel-och-handelspolitik/" class="mainMenuItem" id="mainMenuItem">
+                    Handelspolitik
+                </a>
+
+                    <button class="button button--chevron " data-open="Handelspolitik &#246;ppna" data-close="Handelspolitik st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/internationell-handel-och-handelspolitik/centrala-organisationer-i-handelspolitiken/" class="mainMenuItem" id="mainMenuItem">
+                    Centrala organisationer i handelspolitiken
+                </a>
+
+                    <button class="button button--chevron " data-open="Centrala organisationer i handelspolitiken &#246;ppna" data-close="Centrala organisationer i handelspolitiken st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/internationell-handel-och-handelspolitik/centrala-organisationer-i-handelspolitiken/wto/" class="mainMenuItem" id="mainMenuItem">
+                    WTO
+                </a>
+
+                    <button class="button button--chevron " data-open="WTO &#246;ppna" data-close="WTO st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/internationell-handel-och-handelspolitik/centrala-organisationer-i-handelspolitiken/wto/centrala-principer-i-WTO/" class="mainMenuItem" id="mainMenuItem">
+                    Centrala principer i WTO
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/internationell-handel-och-handelspolitik/centrala-organisationer-i-handelspolitiken/wto/gatt/" class="mainMenuItem" id="mainMenuItem">
+                    Gatt
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/utrikeshandel-och-statistik/internationell-handel-och-handelspolitik/centrala-organisationer-i-handelspolitiken/wto/regionala-frihandelsavtal/" class="mainMenuItem" id="mainMenuItem">
+                    Regionala frihandelsavtal
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/" class="mainMenuItem" id="mainMenuItem">
+                    Analyser och seminarier
+                </a>
+
+                    <button class="button button--chevron " data-open="Analyser och seminarier &#246;ppna" data-close="Analyser och seminarier st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2">
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/" class="mainMenuItem" id="mainMenuItem">
+                    Publikationer
+                </a>
+
+                    <button class="button button--chevron " data-open="Publikationer &#246;ppna" data-close="Publikationer st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/undervisningsmaterial/" class="mainMenuItem" id="mainMenuItem">
+                    Undervisningsmaterial
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/guider/" class="mainMenuItem" id="mainMenuItem">
+                    Guider
+                </a>
+
+                    <button class="button button--chevron " data-open="Guider &#246;ppna" data-close="Guider st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/guider/for-myndigheter-och-kommuner/" class="mainMenuItem" id="mainMenuItem">
+                    F&#246;r myndigheter och kommuner
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/rapporter/" class="mainMenuItem" id="mainMenuItem">
+                    Rapporter
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/om-vara-publikationer/" class="mainMenuItem" id="mainMenuItem">
+                    Om v&#229;ra publikationer
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/publikationer/aldre-publikationer/" class="mainMenuItem" id="mainMenuItem">
+                    &#196;ldre publikationer
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/teman-i-fokus/" class="mainMenuItem" id="mainMenuItem">
+                    Teman i fokus
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/seminarier/" class="mainMenuItem" id="mainMenuItem">
+                    Konferenser och seminarier
+                </a>
+
+                    <button class="button button--chevron " data-open="Konferenser och seminarier &#246;ppna" data-close="Konferenser och seminarier st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/seminarier/kommerskollegiums-medverkan-i-almedalen-2025/" class="mainMenuItem" id="mainMenuItem">
+                    Kommerskollegiums medverkan i Almedalen 2025
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/analyser-och-seminarier/generaldirektoren-kronika/" class="mainMenuItem" id="mainMenuItem">
+                    Generaldirekt&#246;rens kr&#246;nika
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/" class="mainMenuItem" id="mainMenuItem">
+                    H&#229;llbar handel och bist&#229;nd
+                </a>
+
+                    <button class="button button--chevron " data-open="H&#229;llbar handel och bist&#229;nd &#246;ppna" data-close="H&#229;llbar handel och bist&#229;nd st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2">
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/" class="mainMenuItem" id="mainMenuItem">
+                    Handel och bist&#229;nd
+                </a>
+
+                    <button class="button button--chevron " data-open="Handel och bist&#229;nd &#246;ppna" data-close="Handel och bist&#229;nd st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/kommerskollegiums-arbete-med-handel-och-bistand/" class="mainMenuItem" id="mainMenuItem">
+                    Kommerskollegiums arbete med handel och bist&#229;nd
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/vara-samarbeten-med-lander-och-regioner/" class="mainMenuItem" id="mainMenuItem">
+                    V&#229;ra samarbeten med l&#228;nder och regioner
+                </a>
+
+                    <button class="button button--chevron " data-open="V&#229;ra samarbeten med l&#228;nder och regioner &#246;ppna" data-close="V&#229;ra samarbeten med l&#228;nder och regioner st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/vara-samarbeten-med-lander-och-regioner/ukrainas-integration-med-eu-inom-handel/" class="mainMenuItem" id="mainMenuItem">
+                    Ukrainas integration med EU inom handel
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/vara-samarbeten-med-lander-och-regioner/zambia--utvecklingssamarbete-for-okad-varuhandel/" class="mainMenuItem" id="mainMenuItem">
+                    Zambia – utvecklingssamarbete f&#246;r &#246;kad varuhandel
+                </a>
+
+                    <button class="button button--chevron " data-open="Zambia – utvecklingssamarbete f&#246;r &#246;kad varuhandel &#246;ppna" data-close="Zambia – utvecklingssamarbete f&#246;r &#246;kad varuhandel st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-5">
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/vara-samarbeten-med-lander-och-regioner/zambia--utvecklingssamarbete-for-okad-varuhandel/intervju-med-partner-trust-mufune/" class="mainMenuItem" id="mainMenuItem">
+                    Intervju med partner: Trust Mufune
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/vara-samarbeten-med-lander-och-regioner/namibia--ett-utvecklingssamarbete-pa-eu-niva/" class="mainMenuItem" id="mainMenuItem">
+                    Namibia – ett utvecklingssamarbete p&#229; EU-niv&#229;
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/vara-samarbeten-med-lander-och-regioner/ecuador---att-implementera-handelsavtalet-med-eu/" class="mainMenuItem" id="mainMenuItem">
+                    Ecuador – att implementera handelsavtalet med EU
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/handel-och-bistand/trade-academy/" class="mainMenuItem" id="mainMenuItem">
+                    Trade Academy
+                </a>
+
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/" class="mainMenuItem" id="mainMenuItem">
+                    Handel och h&#229;llbar utveckling
+                </a>
+
+                    <button class="button button--chevron " data-open="Handel och h&#229;llbar utveckling &#246;ppna" data-close="Handel och h&#229;llbar utveckling st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/handel-och-miljomassig-hallbarhet/" class="mainMenuItem" id="mainMenuItem">
+                    Handel och milj&#246;m&#228;ssig h&#229;llbarhet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/handel-och-social-hallbarhet/" class="mainMenuItem" id="mainMenuItem">
+                    Handel och social h&#229;llbarhet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/handel-och-ekonomisk-hallbarhet/" class="mainMenuItem" id="mainMenuItem">
+                    Handel  och ekonomisk h&#229;llbarhet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/handel-och-jamstalldhet/" class="mainMenuItem" id="mainMenuItem">
+                    Handel och j&#228;mst&#228;lldhet
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/handelspolitik-och-hallbar-utveckling/" class="mainMenuItem" id="mainMenuItem">
+                    Handelspolitik och h&#229;llbar utveckling
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/hallbarhetskapitel-i-frihandelsavtal/" class="mainMenuItem" id="mainMenuItem">
+                    H&#229;llbarhetskapitel i frihandelsavtal
+                </a>
+
+                    <button class="button button--chevron " data-open="H&#229;llbarhetskapitel i frihandelsavtal &#246;ppna" data-close="H&#229;llbarhetskapitel i frihandelsavtal st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/hallbar-handel-och-bistand/hallbar-handel/hallbarhetskapitel-i-frihandelsavtal/paverka-eus-frihandelsavtal-med-storbritannien/" class="mainMenuItem" id="mainMenuItem">
+                    P&#229;verka EU:s frihandelsavtal med Storbritannien
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/" class="mainMenuItem" id="mainMenuItem">
+                    Handelskonflikten USA–EU
+                </a>
+
+                    <button class="button button--chevron " data-open="Handelskonflikten USA–EU &#246;ppna" data-close="Handelskonflikten USA–EU st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-2">
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/hur-paverkas-svenska-foretag-av-usas-tullar/" class="mainMenuItem" id="mainMenuItem">
+                    Fr&#229;gor och svar om handeln med USA
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/usas-hojda-tullar-pa-ovriga-varor/" class="mainMenuItem" id="mainMenuItem">
+                    USA:s till&#228;ggstullar p&#229; alla varor
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/usas-tillaggstullar-pa-fordon/" class="mainMenuItem" id="mainMenuItem">
+                    USA:s till&#228;ggstullar p&#229; fordon
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/usas-tullar-pa-stal-och-aluminium/" class="mainMenuItem" id="mainMenuItem">
+                    USA:s skyddstullar p&#229; st&#229;l
+                </a>
+
+                    <button class="button button--chevron " data-open="USA:s skyddstullar p&#229; st&#229;l &#246;ppna" data-close="USA:s skyddstullar p&#229; st&#229;l st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-3">
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/usas-tullar-pa-stal-och-aluminium/eus-skyddsatgarder-for-stal/" class="mainMenuItem" id="mainMenuItem">
+                    EU:s skydds&#229;tg&#228;rder f&#246;r st&#229;l
+                </a>
+
+                    <button class="button button--chevron " data-open="EU:s skydds&#229;tg&#228;rder f&#246;r st&#229;l &#246;ppna" data-close="EU:s skydds&#229;tg&#228;rder f&#246;r st&#229;l st&#228;ng">
+                            <i aria-hidden="true" class="fas fa-chevron-down"></i>
+                    </button>
+    <ul class="header__main-menu__list level-4">
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/usas-tullar-pa-stal-och-aluminium/eus-skyddsatgarder-for-stal/sa-fungerar-kvoterna-pa-stal/" class="mainMenuItem" id="mainMenuItem">
+                    S&#229; fungerar EU:s kvoter p&#229; st&#229;l
+                </a>
+
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/usas-tullar-pa-stal-och-aluminium/eus-skyddsatgarder-for-stal/sa-haller-du-koll-pa-stalkvoterna/" class="mainMenuItem" id="mainMenuItem">
+                    S&#229; h&#229;ller du koll p&#229; st&#229;lkvoterna
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+            </li>
+            <li class="header__main-menu__item ">
+                <a href="/handelskonflikten-usaeu/eus-svar-pa-usas-tillaggstullar/" class="mainMenuItem" id="mainMenuItem">
+                    EU:s svar p&#229; USA:s till&#228;ggstullar
+                </a>
+
+            </li>
+    </ul>
+            </li>
+    </ul>
+
+                </nav>
+                    <nav role="navigation" aria-label="Sekund&#228;r navigation mobil" class="header__top-menu hide-lg">
+        <ul class="header__top-menu__list">
+                    <li class="header__top-menu__item">
+                        <a href="/om-oss/uppdrag/pressrum/"> Pressrum</a>
+                    </li>
+                    <li class="header__top-menu__item">
+                        <a href="/om-oss/uppdrag/lattlast/"> L&#228;ttl&#228;st</a>
+                    </li>
+                    <li class="header__top-menu__item">
+                        <a href="/om-oss/uppdrag/e-diarium/"> E-diarium</a>
+                    </li>
+            <li class="header__top-menu__item header__top-menu__item--search">
+                <button class="button--search hide-sm" title="Sök" tabindex="0" onclick="toggleQuickSearch()"><i aria-hidden="true" class="ion-android-search"></i>S&#246;k</button>
+            </li>
+            <li class="header__top-menu__item header__top-menu__item--english">
+
+
+        <a href="/en/about-us/our-mission/"  lang=en>
+            <span>In English</span>
+        </a>
+
+
+
+
+            </li>
+        </ul>
+    </nav>
+
+            </div>
+            <div id="quickSeachOverlay" class="search-overlay">
+                <div class="inner-container">
+                    <div class="search-container">
+                        <form action="https://www.kommerskollegium.se/sok/" method="POST">
+
+                            <button type="submit" role="search" class="button--search"><i aria-hidden="true" class="ion-android-search"></i></button>
+                            <input id="quickSeachQuery" type="search" class="input--search" placeholder="S&#246;k p&#229; webbplats" value="" name="query" aria-label="search text">
+                            <button type="submit" id="quickSeachButton">S&#246;k</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="header-overlay"></div>
+</header>
+
+<div class="print-header print-only">
+    <table>
+        <tbody>
+            <tr>
+                <td style="width:25%; padding:0 30px 20px 0;">
+                </td>
+                <td style="width:75%;">
+                    <h1>Komersikolekiymmist&#228;</h1>
+                    <p></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+    
+
+
+
+<nav aria-label="Breadcrumb" class="breadcrumbs__wrapper" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <div class="inner-container">
+        <div class="breadcrumbs flex-container">
+                        <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a href="/" itemprop="item" title="Hem">
+                                <span itemprop="name">Hem</span>
+                            </a>
+                            <meta itemprop="position" content="1" />
+                        </span>
+                        <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a href="/om-oss/" itemprop="item" title="Om oss">
+                                <span itemprop="name">Om oss</span>
+                            </a>
+                            <meta itemprop="position" content="2" />
+                        </span>
+                        <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a href="/om-oss/uppdrag/" itemprop="item" title="V&#229;rt uppdrag">
+                                <span itemprop="name">V&#229;rt uppdrag</span>
+                            </a>
+                            <meta itemprop="position" content="3" />
+                        </span>
+                        <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a href="/om-oss/uppdrag/minoritetssprak/" itemprop="item" title="Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k">
+                                <span itemprop="name">Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k</span>
+                            </a>
+                            <meta itemprop="position" content="4" />
+                        </span>
+                        <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <span itemprop="name">Me&#228;nkieli</span>
+                            <meta itemprop="position" content="5" />
+                        </span>
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="page-wrapper">
+    <div class="inner-container">
+        <aside class="sidebar">
+            
+
+
+
+
+<nav role="navigation" aria-label="Undermeny" class="sidebar-navigation">
+            <div class="sidebar-navigation__heading">
+                        <a href="/om-oss/uppdrag/minoritetssprak/"><span class="fas fa-arrow-left"></span><span class="visually-hidden">Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k</span></a>
+
+                            <div class="text">Me&#228;nkieli</div>
+
+            </div>
+</nav>
+
+        </aside>
+        <main role="main" id="main" class="main page-content page-content--article">
+            <div class="rte">
+                <h1>
+                    Komersikolekiymmist&#228;
+                </h1>
+
+                <div class="top-image" >
+                    
+                </div>
+
+                <p class="image-text"></p>
+
+                <p class="preamble">Komersikolekiymmi (Kommerskollegium) oon Ruottin virasto ulkomaankaupale, EU:n sis&#228;selle markkinalle ja kauppapolitiikale. Me&#228;n &#228;&#228;rim&#228;inen teht&#228;v&#228; oon ette eril&#228; laila parantaa maholisuuksia kansanv&#228;liselle kaupale. </p>
+
+                <p>Met tehem&auml; t&ouml;it&auml; vaphaan, aukean kaupan eest&auml; jossako oon selv&auml;t pelis&auml;&auml;n&ouml;t ja vaphaan liikkuvuuen eest&auml; EU:n sis&auml;sell&auml; markkinalla. Met varustamma hallitukselle p&auml;&auml;t&ouml;spohjat, tutkimukset ja sanonat ja osalistuma kansainv&auml;lisiss&auml; kokkouksissa ja neuvotteluissa.</p>
+<p>P&auml;&auml;m&auml;&auml;r&auml; me&auml;n ty&ouml;le oon ette tuottaa hyvin toimivhaan sis&auml;sheen markkinhaan, eksterhniin kauppapolitiikhaan EU:ss&auml; joka rakentautuu vapakauphaan ja aukehaan ja luihaan multilateraahliin kauppasysteehmiin.</p>
+<p>P&auml;&auml;m&auml;&auml;r&auml; me&auml;n ty&ouml;le oon ette tuottaa:</p>
+<ul>
+<li>Hyvintoimivhaan sis&auml;sheen markkinhaan</li>
+<li>Eksterhniin kauppapolitiikhaan EU:ss&auml; joka rakentautuu vapakauphaan</li>
+<li>Aukehaan ja luihaan multilateraahliin kauppasysteehmiin</li>
+</ul>
+<p><br />Meit&auml; oon suunile 90 ty&ouml;l&auml;ist&auml; ja me&auml;n kontturi oon Stokholmissa.</p>
+
+            </div>
+            <div class="page-content__blocks">
+                
+            </div>
+        </main>
+        <div class="page-info">
+    <div class="toggle-container toggle-container--question">
+        <div class="toggle-head toggle-head--question" onclick="toggleHead(this)">
+            <p>Ber&#228;tta g&#228;rna vad vi kan g&#246;ra f&#246;r att f&#246;rb&#228;ttra den h&#228;r sidan.</p>
+            <button class="button button--toggle" id="feedbackButton" aria-expanded="false" aria-label="&#214;ppna/st&#228;ng feedbackformul&#228;r">
+                <i aria-hidden="true" class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <div class="toggle-body">
+            
+
+    <form method="post" novalidate="novalidate"
+          data-f-metadata=""
+          enctype="multipart/form-data" class="EPiServerForms ValidationSuccess" data-f-type="form" id="b102ff83-6cdf-45d7-bb60-1f48e1cc5e41">
+
+    
+
+    
+    <script type="text/javascript" src="/EPiServer.Forms/DataSubmit/GetFormInitScript?formGuid=b102ff83-6cdf-45d7-bb60-1f48e1cc5e41&formLanguage=sv"></script>
+
+    
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormGuid" value="b102ff83-6cdf-45d7-bb60-1f48e1cc5e41" data-f-type="hidden" autocomplete="off" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormHostedPage" value="6302" data-f-type="hidden" autocomplete="off" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormLanguage" value="sv" data-f-type="hidden" autocomplete="off" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormCurrentStepIndex" value="0" data-f-type="hidden" autocomplete="off" />
+    <input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormSubmissionId" value="" data-f-type="hidden" autocomplete="off" />
+    <input name="__RequestVerificationToken" type="hidden" value="4D2bVSFhNT_SOu_-0Ds3f20OHpRS2MEtakimRDfYmosCLhAu0X6uzIkwE9VNPJstzrKUewkn4rtmLZODh1NKTdOF8KuX-iE9X-tu4_n3mCM1" />
+
+    
+
+    
+    <div class="Form__Status">
+        <div role="alert" aria-live="polite" class="Form__Status__Message hide" data-f-form-statusmessage>
+            
+        </div>
+    </div>
+
+    <div data-f-mainbody class="Form__MainBody">
+        
+
+            <section id="__field_ab885bb6-e7fe-4470-86f5-7c5b21250cde" data-f-type="step" data-f-element-name="__field_" class="Form__Element FormStep Form__Element--NonData " data-f-stepindex="0" data-f-element-nondata>
+            
+
+            <!-- Each FormStep groups the elements below it til the next FormStep -->
+            <div class="Form__Element FormTextbox FormTextbox--Textarea ValidationRequired" data-f-element-name="__field_270" data-f-modifier="textarea" data-f-type="textbox">
+    <label for="e0413559-8ef4-41f9-bfe5-a6ce27ae9554" class="Form__Element__Caption">Synpunkter (obligatoriskt)</label>
+    <textarea name="__field_270" id="e0413559-8ef4-41f9-bfe5-a6ce27ae9554" class="FormTextbox__Input"
+        
+        data-f-label="Synpunkter (obligatoriskt)" data-f-datainput
+         required aria-required="true" aria-describedby="__field_270_desc"
+        aria-invalid="false" ></textarea>
+    <span class="Form__Element__ValidationError" data-f-linked-name="__field_270" data-f-validationerror="" id="__field_270_desc" style="display:none"></span>
+</div><div class="Form__Element FormTextbox" data-f-element-name="__field_14037" data-f-type="textbox">
+    <label for="545ec40f-f212-48d7-ae01-a750b9d9b0d1" class="Form__Element__Caption">E-post (valfritt, men gl&#246;m inte att ange adressen om du vill ha svar fr&#229;n oss!)</label>
+    <input name="__field_14037" id="545ec40f-f212-48d7-ae01-a750b9d9b0d1" type="text" class="FormTextbox__Input" aria-describedby="__field_14037_desc"
+        
+        value=""  data-f-datainput
+        aria-invalid="false" />
+    <span class="Form__Element__ValidationError" data-f-linked-name="__field_14037" data-f-validationerror="" id="__field_14037_desc" style="display:none"></span>
+    
+</div><div class="Form__Element FormCaptcha" data-f-element-name="__field_8132" data-f-type="captcha">
+<label class="Form__Element__Caption" for="76ffea7d-b3d0-43a5-a3e1-223fb223d143">
+    Ordverifiering
+</label>
+<button name="submit" type="submit" data-f-captcha-image-handler="76ffea7d-b3d0-43a5-a3e1-223fb223d143" value="RefreshCaptcha"
+    class="FormExcludeDataRebind FormCaptcha__Refresh" data-f-captcha-refresh>
+    Uppdatera captcha
+</button>
+<img src="/EPiServer.Forms/DataSubmit/GetCaptchaImage?elementGuid=76ffea7d-b3d0-43a5-a3e1-223fb223d143" alt="Ett fel intr&#228;ffade n&#228;r CAPTCHA-bilden skulle h&#228;mtas" class="FormCaptcha__Image"  data-f-captcha-image />
+<input id="76ffea7d-b3d0-43a5-a3e1-223fb223d143" name="__field_8132" type="text" class="FormTextbox__Input FormCaptcha__Input FormHideInSummarized"  data-f-datainput />
+
+<span class="Form__Element__ValidationError" data-f-linked-name="__field_8132" data-f-validationerror="" id="__field_8132_desc" style="display:none"></span>
+</div>
+
+<button id="9699faf3-7090-430d-a770-1b6604467379" name="submit" type="submit" value="9699faf3-7090-430d-a770-1b6604467379" data-f-is-finalized="false"
+    data-f-is-progressive-submit="true" data-f-type="submitbutton" data-f-element-name="__field_271"
+     
+    
+        class="Form__Element FormExcludeDataRebind FormSubmitButton">
+        Skicka
+    
+</button>
+
+        </section>
+
+        
+    </div>
+    
+    
+
+    </form>
+
+        </div>
+    </div>
+
+<div class="flex-container article-info">
+    <p class="flex-item">Uppdaterad:  2020-02-07</p>
+    <a class="link--print" href="#" onclick="window.print();return false;">
+        <span>Skriv ut</span>
+        <i aria-hidden="true" class="ion-android-print"></i>
+    </a>
+</div>
+        </div>
+    </div>
+    <div class="content-area--fullwidth">
+        
+    </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="footer__inner inner-container">
+        <div class="footer__logo-container">
+            <img src="/assets/images/kommerskollegium-sigill.png" alt="Kommerskollegium sigill">
+        </div>
+
+        <p class="footer-info">
+            Kommerskollegium – Sveriges myndighet f&#246;r utrikeshandel, EU:s inre marknad och handelspolitik. Vi verkar f&#246;r frihandel och f&#246;r fri r&#246;rlighet p&#229; EU:s inre marknad.
+        </p>
+        
+        <div class="footer__menus">
+            <div class="footer__navigation__container">
+                <h2>Kommerskollegium</h2>
+                <div class="footer__navigation">
+                    <ul class="footer__navigation__list">
+                                <li class="footer__navigation__list__item">
+                                    <a href="/om-oss/jobba-hos-oss/"> Jobba hos oss &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/om-oss/medarbetare/"> S&#246;k medarbetare &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/om-oss/uppdrag/minoritetssprak/"> Om oss p&#229; minoritetsspr&#229;k och teckenspr&#229;k &gt; </a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__navigation__container">
+                <h2>EU-r&#228;tten</h2>
+                <div class="footer__navigation">
+                    <ul class="footer__navigation__list">
+                                <li class="footer__navigation__list__item">
+                                    <a href="/eu-ratten/eu-medborgares-rattigheter/utan-personnummer-i-sverige/"> Utan personnummer i Sverige &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/eu-ratten/solvit-loser-problem-i-eu/"> Solvit l&#246;ser problem i EU &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/eu-ratten/myndigheter-kommuner-och-eu-ratten/"> Myndigheter, kommuner och EU-r&#228;tten &gt; </a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__navigation__container">
+                <h2>Importera &amp; exportera</h2>
+                <div class="footer__navigation">
+                    <ul class="footer__navigation__list">
+                                <li class="footer__navigation__list__item">
+                                    <a href="/importera--exportera/nyhetsbrev-foretag/"> Nyhetsbrev f&#246;r f&#246;retag &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/importera--exportera/anmal-handelshinder/"> Anm&#228;l handelshinder &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/importera--exportera/handla-utanfor-eu/undantag-fran-exportforbud/internationella-sanktioner/"> Internationella sanktioner &gt; </a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__navigation__container">
+                <h2>Utrikeshandel</h2>
+                <div class="footer__navigation">
+                    <ul class="footer__navigation__list">
+                                <li class="footer__navigation__list__item">
+                                    <a href="/utrikeshandel-och-statistik/handelsstatistik/"> Handelsstatistik &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/utrikeshandel-och-statistik/utrikeshandel/frihandel/"> Frihandel &gt; </a>
+                                </li>
+                                <li class="footer__navigation__list__item">
+                                    <a href="/utrikeshandel-och-statistik/utrikeshandel/protektionism/"> Protektionism &gt; </a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="socialmedia__container">
+            <h2>Sociala medier</h2>
+            <div class="flex-container flex-container--center icons">
+                <div class="flex-item">
+                        <a  href="https://bsky.app/profile/sweboardoftrade.bsky.social" target="_blank">
+                            <svg class="bluesky-icon" width="45" height="45" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500
+                                 500">
+                                <path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z" fill="white" />
+                            </svg>
+                            <span>F&#246;lj oss p&#229; Bluesky</span>
+                        </a>
+                </div>
+                <div class="flex-item">
+                </div>
+                <div class="flex-item">
+                </div>
+                <div class="flex-item">
+                        <a  href="https://www.linkedin.com/company/national-board-of-trade" target="_blank">
+                            <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+                            <span>F&#246;lj oss p&#229; Linkedin</span>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__bottom__contact-container">
+                <h2>Kontakt</h2>
+
+                <p>Kommerskollegium, Box 6803, 113 86 Stockholm</p>
+
+                <div class="flex-container flex-container--center">
+                    <div class="flex-item" >
+                        Bes&#246;ksadress:
+                        Fleminggatan 14
+                    </div>
+                    <div class="flex-item" >
+                        Tel: <a href="tel:08-690&#173; 48&#173; 00 ">08-690&#173; 48&#173; 00 </a>
+                    </div>
+                    <div class="flex-item" >
+                        E-post: <a href="mailto:registrator@kommerskollegium.se">registrator@kommerskollegium.se</a>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="flex-container flex-container--center footer-links">
+                        <li class="flex-item">
+                            <a target="_top" href="/om-oss/">
+                                Om oss
+                            </a>
+                        </li>
+                        <li class="flex-item">
+                            <a target="_top" href="/om-oss/uppdrag/lattlast/">
+                                L&#228;ttl&#228;st
+                            </a>
+                        </li>
+                <li class="flex-item">
+                    <a href="#" class="changeCookieSettings">
+                        &#196;ndra cookieinst&#228;llningar
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript" src="https://dl.episerver.net/13.6.1/epi-util/find.js"></script>
+<script type="text/javascript" src="/WebResource.axd?d=TzRGlCddaaqtz0Im2nSJhNLc75RwcFDR10fio0ajCSIRgMXASw1PG5FTKEH0mkokLf2bor9w_aEQmMJNhTAHG9lj4JcMwlkpaQXj6Z4mJHQoCuqYl8-MAgQlJV48v6X7uaNgBTnbSepzMl37FgMnHpmzrAyGn2X5zmObqN7szTg1&t=637323584880000000"></script>
+<script type="text/javascript">
+if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+    <button type="button" class="button button--scroll" id="scrollTop" aria-label="Till toppen"><i aria-hidden="true" class="fas fa-chevron-up">Till toppen</i></button>
+<div id="CookieConsent" class="cookieModal" role="dialog" aria-modal="true" aria-live="polite" tabIndex="0">
+    <div class="dialog">
+        <div class="content consent show">
+            <div class="text_wrapper">
+                <div class="cookieLang">
+
+
+        <a href="/en/about-us/our-mission/"  lang=en>
+            <span>In English</span>
+        </a>
+
+
+
+
+                </div>
+                <div class="text">
+                    <h2 class="heading">Vi anv&#228;nder kakor</h2>
+                    <p>P&aring; kommerskollegium.se anv&auml;nder vi n&ouml;dv&auml;ndiga kakor f&ouml;r att webbplatsen ska fungera p&aring; ett bra s&auml;tt f&ouml;r dig. Vi anv&auml;nder ocks&aring; kakor f&ouml;r webbanalys s&aring; att vi kan f&ouml;rb&auml;ttra v&aring;r webbplats.</p>
+<p>Om du accepterar de h&auml;r kakorna, klicka p&aring; "Ja, jag godk&auml;nner". Du kan ocks&aring; v&auml;lja bort kakor som inte &auml;r n&ouml;dv&auml;ndiga f&ouml;r att kunna anv&auml;nda webbplatsen. Det g&ouml;r du genom att klicka p&aring; "Hantera kakor". Du kan &auml;ndra ditt beslut n&auml;r som helst. L&auml;s mer om hur vi anv&auml;nder kakor i v&aring;r <a class="cookiePolicy" href="#">cookie policy</a>.</p>
+                    
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn blueBtn cookieSettings" type="submit">Hantera kakor</button>
+                
+                
+                <button class="btn acceptAll show blueBtn" type="submit">Ja, jag godk&#228;nner</button>
+            </div>
+        </div>
+        <div class="content settings">
+            <div class="heading_wrapper">
+                <h2 class="heading">Anpassa inst&#228;llningar</h2>
+            </div>
+            <div class="text_wrapper settings">
+                
+
+                <div class="cookie-form-control">
+                    <input class="input-checkbox" id="cookie-option-1" name="cookie-option-1" type="checkbox" checked="" disabled="" />
+                    <label class="label cookie-label" for="cookie-option-1">N&#246;dv&#228;ndiga kakor</label>
+                    <p class="cookie-p">
+                        Dessa kakor &#228;r obligatoriska. De ger tillg&#229;ng till basfunktionerna f&#246;r webbplatsen och de relaterade tj&#228;nsterna. Utan de h&#228;r kakorna kan inte webbplatsen fungera. D&#228;rf&#246;r g&#229;r de inte att inaktivera.
+                    </p>
+                        <button type="button" class="cookieinfo expand" aria-expanded="false" aria-controls="cookie-info1">Visa info</button>
+                        <div id="cookie-info1" class="cookieinfo_content">
+                            <table style="height: 277px; width: 100%; border-collapse: collapse;" border="1 ">
+<thead>
+<tr style="height: 34px;">
+<th style="width: 31.5759%; height: 34px;" scope="col"><strong>Namn</strong></th>
+<th style="width: 19.625%; height: 34px;" scope="col"><strong>Tid</strong></th>
+<th style="width: 48.799%; height: 34px;" scope="col"><strong>Syfte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 42px;">
+<td style="width: 31.5759%; height: 42px;">ASP.NET_SessionId</td>
+<td style="width: 19.625%; height: 42px;">Session</td>
+<td style="width: 48.799%; height: 42px;">Tempor&auml;r kaka som kr&auml;vs f&ouml;r att identifiera anv&auml;ndarsessionen p&aring; servern. Denna kaka raderas n&auml;r du st&auml;nger din webbl&auml;sare.</td>
+</tr>
+<tr style="height: 155px;">
+<td style="width: 31.5759%; height: 155px;">__RequestVerificationToken</td>
+<td style="width: 19.625%; height: 155px;">Session</td>
+<td style="width: 48.799%; height: 155px;">Denna kaka s&auml;tts av ASP.NET och &auml;r n&ouml;dv&auml;ndig f&ouml;r sidans s&auml;kerhet, f&ouml;r att skydda anv&auml;ndare och webbplatsen mot angrepp. Denna kaka raderas n&auml;r du st&auml;nger din webbl&auml;sare.</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 31.5759%; height: 46px;">.EPiForm_BID&nbsp;</td>
+<td style="width: 19.625%; height: 46px;">90 dagar</td>
+<td style="width: 48.799%; height: 46px;">Anv&auml;nds n&auml;r du fyller i ett formul&auml;r, f&ouml;r att h&aring;lla reda p&aring; vilka f&auml;lt som fylls i.</td>
+</tr>
+<tr>
+<td style="width: 31.5759%;">.EPiForm_VisitorIdentifier&nbsp;</td>
+<td style="width: 19.625%;">90 dagar</td>
+<td style="width: 48.799%;">Anv&auml;nds n&auml;r du skickar in ett formul&auml;r, f&ouml;r att h&aring;lla reda p&aring; vilken anv&auml;ndare som har skickat in vilket formul&auml;r.</td>
+</tr>
+<tr>
+<td style="width: 31.5759%;">ConsentCookie</td>
+<td style="width: 19.625%;">365 dagar</td>
+<td style="width: 48.799%;">Anv&auml;nds f&ouml;r att spara bes&ouml;karens inst&auml;llningar f&ouml;r kakor.</td>
+</tr>
+</tbody>
+</table>
+                        </div>
+                </div>
+                <div class="cookie-form-control ">
+                    <input class="input-checkbox" id="cookie-option-2" name="cookie-option-2" type="checkbox" />
+                    <label class="label cookie-label" for="cookie-option-2">Statistiska kakor</label>
+                    <p class="cookie-p">
+                        Statistiska kakor samlar in och rapporterar information om hur v&#229;ra bes&#246;kare anv&#228;nder webbplatsen. Informationen som samlas in &#228;r anonymiserad och kan inte kopplas till dig som anv&#228;ndare. Dessa kakor hj&#228;lper oss att f&#246;rst&#229; hur vi kan f&#246;rb&#228;ttra v&#229;r webbplats, bland annat genom att vi kan se vilka sidor som l&#228;ses mest och hur bes&#246;kare g&#229;r mellan sidorna.
+                    </p>
+                        <button type="button" class="cookieinfo expand" aria-expanded="false" aria-controls="cookie-info2">Visa info</button>
+                        <div id="cookie-info2" class="cookieinfo_content">
+                            <table style="border-collapse: collapse; width: 100%; height: 277px;" border="1">
+<thead>
+<tr style="height: 34px;">
+<th style="width: 31.5759%; height: 34px;" scope="col"><strong>Namn</strong></th>
+<th style="width: 19.625%; height: 34px;" scope="col"><strong>Tid</strong></th>
+<th style="width: 48.799%; height: 34px;" scope="col"><strong>Syfte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 42px;">
+<td style="width: 31.5759%; height: 42px;">_ga</td>
+<td style="width: 19.625%; height: 42px;">2 &aring;r</td>
+<td style="width: 48.799%; height: 42px;">Kakan skapas f&ouml;r analysverktyget Google Analytics och anv&auml;nds f&ouml;r att samla in webbstatistik om anv&auml;ndningen p&aring; webbplatsen samt g&ouml;r det m&ouml;jligt att skilja p&aring; nya och &aring;terkommande bes&ouml;kare p&aring; webbplatsen. Kakan inneh&aring;ller ingen information om dig som person.</td>
+</tr>
+<tr style="height: 155px;">
+<td style="width: 31.5759%; height: 155px;">_ga_*</td>
+<td style="width: 19.625%; height: 155px;">2 &aring;r</td>
+<td style="width: 48.799%; height: 155px;">Kakan skapas f&ouml;r analysverktyget Google Analytics och anv&auml;nds f&ouml;r att samla in webbstatistik om anv&auml;ndningen p&aring; webbplatsen samt g&ouml;r det m&ouml;jligt att skilja p&aring; nya och &aring;terkommande bes&ouml;kare p&aring; webbplatsen. Kakan inneh&aring;ller ingen information om dig som person.</td>
+</tr>
+<tr style="height: 46px;">
+<td style="width: 31.5759%; height: 46px;">_gat_UA-*</td>
+<td style="width: 19.625%; height: 46px;">2 &aring;r</td>
+<td style="width: 48.799%; height: 46px;">Kakan skapas f&ouml;r analysverktyget Google Analytics och anv&auml;nds f&ouml;r att samla in webbstatistik om anv&auml;ndningen p&aring; webbplatsen samt g&ouml;r det m&ouml;jligt att skilja p&aring; nya och &aring;terkommande bes&ouml;kare p&aring; webbplatsen. Kakan inneh&aring;ller ingen information om dig som person.</td>
+</tr>
+</tbody>
+</table>
+                        </div>
+                </div>
+                <div class="cookie-form-control ">
+                    <input class="input-checkbox" id="cookie-option-3" name="cookie-option-3" type="checkbox" />
+                    <label class="label cookie-label" for="cookie-option-3">Marknadsf&#246;ringskakor</label>
+                    <p class="cookie-p">
+                        Marknadsf&#246;ringskakor anv&#228;nds f&#246;r att sp&#229;ra anv&#228;ndare &#246;ver webbplatser f&#246;r att visa relevanta annonser f&#246;r dem. De kan ocks&#229; begr&#228;nsa antalet g&#229;nger en annons visas och m&#228;ta effektiviteten av annonskampanjer.
+                    </p>
+                        <button type="button" class="cookieinfo expand" aria-expanded="false" aria-controls="cookie-info3">Visa info</button>
+                        <div id="cookie-info3" class="cookieinfo_content">
+                            <table style="border-collapse: collapse; width: 100%; height: 44px;" border="1">
+<thead>
+<tr style="height: 34px;">
+<th style="width: 171.125px; height: 34px;"><strong>Namn</strong></th>
+<th style="width: 105.264px; height: 34px;"><strong>Tid</strong></th>
+<th style="width: 266.056px; height: 34px;"><strong>Syfte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 42px;">
+<td style="width: 171.125px; height: 10px;">_gcl_au</td>
+<td style="width: 105.264px; height: 10px;">90 dagar</td>
+<td style="width: 266.056px; height: 10px;">Kakan anv&auml;nds av Google Ads f&ouml;r att lagra och sp&aring;ra konverteringar, vilket inneb&auml;r att den samlar data om n&auml;r en anv&auml;ndare klickar p&aring; en annons och sedan utf&ouml;r en handling, t.ex. fyller i ett formul&auml;r.</td>
+</tr>
+</tbody>
+</table>
+                        </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn btndark backbtn">Tillbaka</button>
+                <button class="btn saveSettings blueBtn">Spara</button>
+            </div>
+        </div>
+        <div class="content policy">
+            <div class="heading_wrapper">
+                <h2 class="heading">Om kakor</h2>
+            </div>
+            <div class="text_wrapper settings">
+                <div class="policy-content">
+                    <p>P&aring; kommerskollegium.se anv&auml;nder vi kakor f&ouml;r att f&ouml;rb&auml;ttra din upplevelse av v&aring;r webbplats. Du kan v&auml;lja att godk&auml;nna alla kakor, eller v&auml;lja bort kakor som inte &auml;r n&ouml;dv&auml;ndiga f&ouml;r att kunna anv&auml;nda webbplatsen. Du kan &auml;ndra ditt val n&auml;r som helst via "&Auml;ndra cookieinst&auml;llningar" i sidfoten.</p>
+<p>Vi &auml;r enligt lag skyldiga att informera dig om att webbplatsen anv&auml;nder kakor och vad dessa anv&auml;nds till. Du ska ocks&aring; f&aring; veta hur du kan v&auml;lja bort kakor. L&auml;s mer om v&aring;ra olika kakor nedan.</p>
+<p><strong>Om kakor (cookies)</strong></p>
+<p>Kakor &auml;r sm&aring; textfiler som sparas p&aring; din dator, mobil eller surfplatta n&auml;r du bes&ouml;ker en webbplats som anv&auml;nder cookies. Vissa cookies sparas p&aring; din dator, mobil eller surfplatta endast den tid du bes&ouml;ker webbplatsen f&ouml;r att sedan automatiskt raderas. Andra cookies sparas under en begr&auml;nsad tid.</p>
+<p><strong>St&auml;ll in din webbl&auml;sare</strong></p>
+<p>Om du inte vill acceptera cookies kan du st&auml;lla in din webbl&auml;sare s&aring; att du automatiskt s&auml;ger nej till lagring av cookies eller f&aring;r information varje g&aring;ng en webbplats beg&auml;r att f&aring; lagra en cookie. Du kan ocks&aring; st&auml;lla in webbl&auml;saren s&aring; att den raderar tidigare lagrade cookies.</p>
+<p><strong>Mer information</strong></p>
+<p>Post- och telestyrelsen, som &auml;r den svenska tillsynsmyndigheten p&aring; omr&aring;det, har mer information om cookies p&aring; sin webbplats.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn btndark backbtn">Tillbaka</button>
+                <button class="btn btndark closebtn">St&#228;ng</button>
+                <button class="btn acceptAllPolicy show blueBtn" type="submit">Ja, jag godk&#228;nner</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="/dist/js/main.js?cachebusting=202506171646"></script>
+    <script src="/dist/js/CookieConcent.js?cachebusting=202506171646"></script>
+
+</body>
+</html>
